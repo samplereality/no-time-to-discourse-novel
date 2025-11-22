@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/samplereality/no-time-to-discourse/issues"
   },
-  "homepage": "https://github.com/samplereality/no-time-to-discourse#readme"
+  "homepage": "https://github.com/samplereality/no-time-to-discourse#readme",
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "rita": "^2.8.31",
+    "sharp": "^0.34.5"
+  }
 }

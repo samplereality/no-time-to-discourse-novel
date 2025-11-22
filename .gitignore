@@ -1,2 +1,31 @@
+# macOS
 .DS_Store
+
+# Editor
 .vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Novel Generator Output
+output/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Temporary files
+*.tmp
+*.bak
+*~
