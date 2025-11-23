@@ -9,7 +9,7 @@ node_modules/
 npm-debug.log*
 
 # Novel Generator Output
-output/
+# output/
 *.log
 
 # Python
