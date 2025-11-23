@@ -22,7 +22,7 @@ const geoClustering = require('./tools/geo-clustering');
 const args = process.argv.slice(2);
 const options = {
     zoom: 8,
-    storiesPerPage: 5,
+    storiesPerPage: 3,  // Reduced from 5 to 3 for better spacing with geographic positioning
     maxSameType: 2,
     skipTiles: false
 };
@@ -57,15 +57,13 @@ const locationsWithNotes = disasterData.features.filter(f => f.properties.note !
 console.log(`Found ${locationsWithNotes.length} locations with disaster types\n`);
 
 // Helper function to check if location is in US (excluding Canada/Mexico)
-function isUSLocation(loc) {
+function isUSOrCanadaLocation(loc) {
     const state = loc.properties.adm1name;
-    const nonUSStates = ['Québec', 'Ontario', 'Manitoba', 'Saskatchewan', 'Alberta',
-                         'British Columbia', 'Yukon', 'Northwest Territories', 'Nunavut',
-                         'Newfoundland and Labrador', 'New Brunswick', 'Nova Scotia',
-                         'Prince Edward Island', 'Tamaulipas', 'Baja California',
-                         'Baja California Sur', 'Chihuahua', 'Coahuila', 'Durango',
-                         'Nuevo León', 'Sinaloa', 'Sonora'];
-    return !nonUSStates.includes(state);
+    // Exclude only Mexican states
+    const mexicanStates = ['Tamaulipas', 'Baja California', 'Baja California Sur',
+                           'Chihuahua', 'Coahuila', 'Durango', 'Nuevo León',
+                           'Sinaloa', 'Sonora'];
+    return !mexicanStates.includes(state);
 }
 
 // Group locations by region
@@ -100,8 +98,9 @@ locationsWithNotes.forEach(loc => {
 });
 
 // Add locations without notes to appropriate regions based on state
+// Include US and Canada only (exclude Mexico)
 disasterData.features.forEach(loc => {
-    if (loc.properties.note === null && isUSLocation(loc)) {
+    if (loc.properties.note === null && isUSOrCanadaLocation(loc)) {
         const state = loc.properties.adm1name;
 
         // Assign to regions based on state
@@ -118,8 +117,25 @@ disasterData.features.forEach(loc => {
         } else if (regions.northeast.states && regions.northeast.states.includes(state)) {
             regions.northeast.locations.push(loc);
         }
-        // States already covered by note-based regions:
-        // AL, GA, MS (some in eastCoast/gulfCoast), LA, TX (gulfCoast), OR, WA, CA (westCoast)
+        // For Canadian provinces not in defined regions, add to farNorth or eastCoast
+        else {
+            const lat = loc.geometry.coordinates[1];
+            const canadianProvinces = ['Québec', 'Ontario', 'Manitoba', 'Saskatchewan', 'Alberta',
+                                      'British Columbia', 'Yukon', 'Northwest Territories', 'Nunavut',
+                                      'Newfoundland and Labrador', 'New Brunswick', 'Nova Scotia',
+                                      'Prince Edward Island'];
+
+            if (canadianProvinces.includes(state)) {
+                // Western/Northern Canada goes to farNorth
+                if (lat > 50 || state === 'British Columbia' || state === 'Alberta') {
+                    regions.farNorth.locations.push(loc);
+                }
+                // Eastern Canada goes to eastCoast
+                else {
+                    regions.eastCoast.locations.push(loc);
+                }
+            }
+        }
     }
 });
 
@@ -254,153 +270,122 @@ async function generateNovel() {
 
     console.log(`Generated ${allStories.length} total stories`);
 
-    // Organize stories by season
-    console.log('\n=== PHASE 2: Organizing stories by season ===\n');
+    // Skip seasonal organization - cluster all stories geographically
+    console.log('\n=== PHASE 2: Geographic clustering (all stories) ===\n');
 
-    const storiesBySeason = {
-        winter: [],
-        spring: [],
-        summer: [],
-        fall: []
-    };
+    // Shuffle all stories for variety before clustering
+    for (let i = allStories.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [allStories[i], allStories[j]] = [allStories[j], allStories[i]];
+    }
 
-    allStories.forEach(story => {
-        const season = story.season;
-        if (storiesBySeason[season]) {
-            storiesBySeason[season].push(story);
-        } else {
-            // If season is 'unknown' or other, distribute evenly
-            const seasons = ['winter', 'spring', 'summer', 'fall'];
-            const randomSeason = seasons[Math.floor(Math.random() * seasons.length)];
-            storiesBySeason[randomSeason].push(story);
+    // Extract the location features from stories for clustering
+    // We need to reconstruct a minimal feature object for clustering
+    const storyFeatures = allStories.map(story => ({
+        story: story,
+        properties: {
+            name: story.city,
+            adm1name: story.state
+        },
+        geometry: {
+            coordinates: story.coordinates
         }
-    });
+    }));
 
-    console.log('Stories per season:');
-    Object.entries(storiesBySeason).forEach(([season, stories]) => {
-        console.log(`  ${season}: ${stories.length} stories`);
-    });
+    // Cluster stories geographically across ALL stories (not by season)
+    console.log(`Clustering ${storyFeatures.length} stories into groups of ${options.storiesPerPage}...`);
+    const clusters = geoClustering.clusterLocationsByProximity(storyFeatures, options.storiesPerPage);
+    console.log(`Created ${clusters.length} geographic clusters (pages)`);
 
-    // Now process each season as a chapter
-    console.log('\n=== PHASE 3: Creating pages for each season ===\n');
+    // Generate pages - no chapters, just one continuous sequence
+    console.log('\n=== PHASE 3: Creating pages ===\n');
 
     const chapters = [];
     let totalWords = 0;
     let pageCounter = 0;
 
-    const seasonOrder = ['winter', 'spring', 'summer', 'fall'];
-    const seasonTitles = {
-        winter: 'Winter',
-        spring: 'Spring',
-        summer: 'Summer',
-        fall: 'Fall'
-    };
+    // Single chapter with all pages
+    const allPages = [];
+    const tileDir = path.join(tilesDir, 'all');
 
-    for (const season of seasonOrder) {
-        const seasonStories = storiesBySeason[season];
-        console.log(`\n=== Processing ${seasonTitles[season]} (${seasonStories.length} stories) ===`);
+    for (let i = 0; i < clusters.length; i++) {
+        const cluster = clusters[i];
+        pageCounter++;
+        console.log(`  Processing page ${pageCounter} (cluster ${i + 1}/${clusters.length}, ${cluster.length} stories)...`);
 
-        if (seasonStories.length === 0) {
-            console.log('No stories for this season, skipping...');
-            continue;
+        // Extract the stories from the cluster
+        const stories = cluster.map(item => item.story);
+
+        // Use zoom 5 for multi-state/regional view
+        // Download a 5x5 grid at zoom 7 for high resolution, then stitch
+        const zoom = 5;  // Geographic extent (regional)
+        const downloadZoom = 7;  // Higher detail for stitching
+        const radius = 2;  // 5x5 grid = 25 tiles = 1280x1280 pixels stitched
+
+        // Get coordinates from the stories
+        const storyCoords = stories.map(s => s.coordinates);
+        const clusterCenter = geoClustering.getCenterOfCoordinates(storyCoords);
+        const clusterBounds = geoClustering.getBoundsForCoordinates(storyCoords);
+
+        // Download and stitch map tiles for this specific cluster
+        let mapImagePath = 'placeholder.jpg';
+        let tileInfo = null;
+        if (!options.skipTiles) {
+            try {
+                console.log(`    Downloading ${downloadZoom} tiles for cluster center (${clusterCenter.lat.toFixed(4)}, ${clusterCenter.lon.toFixed(4)})...`);
+
+                // Download tiles at higher zoom for resolution
+                const tiles = await mapCapture.downloadPointTiles(
+                    clusterCenter.lat,
+                    clusterCenter.lon,
+                    downloadZoom,
+                    radius,
+                    tileDir
+                );
+
+                // Stitch tiles into a single high-resolution image
+                const stitchedFilename = `stitched_page_${pageCounter}.jpg`;
+                const stitchedPath = path.join(tileDir, stitchedFilename);
+                const stitchedImage = await mapCapture.stitchTiles(tiles, stitchedPath);
+
+                mapImagePath = path.relative(outputDir, stitchedImage.filepath);
+
+                // Calculate tile info for the target zoom level (5)
+                const displayTile = mapCapture.latLonToTile(clusterCenter.lat, clusterCenter.lon, zoom);
+                tileInfo = {
+                    z: zoom,
+                    x: displayTile.x,
+                    y: displayTile.y,
+                    bounds: mapCapture.tileToBounds(displayTile.x, displayTile.y, zoom)
+                };
+            } catch (err) {
+                console.error(`    Error processing tiles:`, err.message);
+                console.log('    Continuing with placeholder...');
+            }
         }
 
-        // Extract the location features from stories for clustering
-        // We need to reconstruct a minimal feature object for clustering
-        const storyFeatures = seasonStories.map(story => ({
-            story: story,
-            geometry: {
-                coordinates: story.coordinates
-            }
-        }));
-
-        // Cluster stories geographically
-        console.log(`Clustering ${storyFeatures.length} stories into groups of ${options.storiesPerPage}...`);
-        const clusters = geoClustering.clusterLocationsByProximity(storyFeatures, options.storiesPerPage);
-        console.log(`Created ${clusters.length} geographic clusters (pages)`);
-
-        // Generate pages for this chapter - one cluster per page
-        const pages = [];
-        for (let i = 0; i < clusters.length; i++) {
-            const cluster = clusters[i];
-            pageCounter++;
-            console.log(`  Processing page ${pageCounter} (cluster ${i + 1}/${clusters.length}, ${cluster.length} stories)...`);
-
-            // Extract the stories from the cluster
-            const stories = cluster.map(item => item.story);
-
-            // Use zoom 5 for multi-state/regional view
-            // Download a 5x5 grid at zoom 7 for high resolution, then stitch
-            const zoom = 5;  // Geographic extent (regional)
-            const downloadZoom = 7;  // Higher detail for stitching
-            const radius = 2;  // 5x5 grid = 25 tiles = 1280x1280 pixels stitched
-
-            // Get coordinates from the stories
-            const storyCoords = stories.map(s => s.coordinates);
-            const clusterCenter = geoClustering.getCenterOfCoordinates(storyCoords);
-            const clusterBounds = geoClustering.getBoundsForCoordinates(storyCoords);
-
-            // Download and stitch map tiles for this specific cluster
-            let mapImagePath = 'placeholder.jpg';
-            let tileInfo = null;
-            if (!options.skipTiles) {
-                try {
-                    console.log(`    Downloading ${downloadZoom} tiles for cluster center (${clusterCenter.lat.toFixed(4)}, ${clusterCenter.lon.toFixed(4)})...`);
-                    // Use season directory name to match file system
-                    const seasonDir = season.toLowerCase();
-                    const tileDir = path.join(tilesDir, seasonDir);
-
-                    // Download tiles at higher zoom for resolution
-                    const tiles = await mapCapture.downloadPointTiles(
-                        clusterCenter.lat,
-                        clusterCenter.lon,
-                        downloadZoom,
-                        radius,
-                        tileDir
-                    );
-
-                    // Stitch tiles into a single high-resolution image
-                    const stitchedFilename = `stitched_page_${pageCounter}.jpg`;
-                    const stitchedPath = path.join(tileDir, stitchedFilename);
-                    const stitchedImage = await mapCapture.stitchTiles(tiles, stitchedPath);
-
-                    mapImagePath = path.relative(outputDir, stitchedImage.filepath);
-
-                    // Calculate tile info for the target zoom level (5)
-                    const displayTile = mapCapture.latLonToTile(clusterCenter.lat, clusterCenter.lon, zoom);
-                    tileInfo = {
-                        z: zoom,
-                        x: displayTile.x,
-                        y: displayTile.y,
-                        bounds: mapCapture.tileToBounds(displayTile.x, displayTile.y, zoom)
-                    };
-                } catch (err) {
-                    console.error(`    Error processing tiles:`, err.message);
-                    console.log('    Continuing with placeholder...');
-                }
-            }
-
-            // Count words in stories
-            stories.forEach(story => {
-                const words = story.story.replace(/<[^>]*>/g, '').split(/\s+/).length;
-                totalWords += words;
-            });
-
-            pages.push({
-                mapImagePath: mapImagePath,
-                stories: stories,
-                tileInfo: tileInfo,
-                clusterBounds: clusterBounds
-            });
-        }
-
-        chapters.push({
-            title: seasonTitles[season],
-            pages: pages
+        // Count words in stories
+        stories.forEach(story => {
+            const words = story.story.replace(/<[^>]*>/g, '').split(/\s+/).length;
+            totalWords += words;
         });
 
-        console.log(`  Generated ${pages.length} pages for ${seasonTitles[season]}`);
+        allPages.push({
+            mapImagePath: mapImagePath,
+            stories: stories,
+            tileInfo: tileInfo,
+            clusterBounds: clusterBounds
+        });
     }
+
+    // Create a single chapter with all pages
+    chapters.push({
+        title: 'No Time to Discourse',
+        pages: allPages
+    });
+
+    console.log(`  Generated ${allPages.length} total pages`);
+
 
     const totalStories = allStories.length;
 

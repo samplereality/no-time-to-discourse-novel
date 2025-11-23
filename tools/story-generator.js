@@ -191,6 +191,8 @@ function generateStory(feature) {
 
     return {
         location: `${city}, ${state}`,
+        city: city,
+        state: state,
         rule: rule,
         story: story,
         disasterType: disasterType,

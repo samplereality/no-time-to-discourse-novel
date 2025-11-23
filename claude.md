@@ -341,3 +341,29 @@ To achieve the desired semi-transparent overlay effect (like the web version):
 ```
 
 **Current blocker**: TikZ `remember picture` causes `\pgfsyspdfmark` errors even with full MacTeX. The `textpos` + `\colorbox` solution works but doesn't support transparency.
+
+## Recent Fixes (November 2025)
+
+### Issue #34: Unicode Character Errors in LaTeX
+- **Problem**: Cyrillic and other non-ASCII characters from RiTa.js causing LaTeX compilation errors (U+0421, etc.)
+- **Solution**: Added `sanitizeUnicode()` function to strip Cyrillic, CJK, and other non-Latin characters before LaTeX escaping
+- **File**: [tools/latex-generator.js](tools/latex-generator.js#L12-L31)
+- **Result**: All Unicode characters now sanitized to ASCII before PDF compilation
+
+### Issue #35: Story Overlap on Maps
+- **Problem**: Stories positioned at exact geographic coordinates often overlapped, making them unreadable
+- **Solution**: Implemented grid snapping + spiral collision avoidance algorithm
+  - Snaps positions to 0.8" grid for natural separation
+  - Checks minimum 1.8" distance between story boxes
+  - Spirals outward if position is too close to existing story
+- **File**: [tools/latex-generator.js](tools/latex-generator.js#L206-L257)
+- **Result**: Stories positioned near their geographic location but with guaranteed spacing
+
+### Issue #36: Geographic Scope Refinement
+- **Problem**: Novel included Mexican locations which were outside intended scope
+- **Solution**: Updated location filter to include only US and Canada
+  - Changed `isUSLocation()` to `isUSOrCanadaLocation()`
+  - Excludes Mexican states: Tamaulipas, Baja California, Chihuahua, etc.
+  - Canadian provinces distributed to farNorth or eastCoast regions
+- **File**: [generate-novel.js](generate-novel.js#L60-L67)
+- **Result**: ~1,100-1,200 locations (US + Canada only)
