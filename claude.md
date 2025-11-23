@@ -234,6 +234,10 @@ LaTeX document generation for PDF output:
 - **Project Philosophy**: "narrativizes data" - Rita Raley's call for electronic literature
 - **License**: GPLv3 for code, MIT for package
 
+## Git Commit Conventions
+- **IMPORTANT**: Do NOT include "Co-Authored-By: Claude" or similar AI attribution in commit messages
+- Keep commit messages simple and descriptive without emoji or co-author metadata
+
 ## Version
 Current web version: 1.7.2
 Novel generator: v1.0 (PDF compiles successfully, needs design refinement)
