@@ -273,7 +273,7 @@ async function stitchTiles(tiles, outputPath) {
     // Composite all tiles onto the canvas
     await canvas
         .composite(compositeInputs)
-        .jpeg({ quality: 90 })
+        .jpeg({ quality: 75 })
         .toFile(outputPath);
 
     console.log(`    Stitched image saved to: ${outputPath}`);

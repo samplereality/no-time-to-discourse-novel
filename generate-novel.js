@@ -236,35 +236,27 @@ async function generateNovel() {
 
     console.log(`Total unique locations: ${allLocations.length}`);
 
-    // Expand locations to reach 50,000+ words
-    // Target ~1350 stories total (at ~40 words each = 54,000 words)
-    const targetTotalStories = 1350;
-    const timesToUse = Math.ceil(targetTotalStories / allLocations.length);
-
-    console.log(`Expanding each location ${timesToUse}x to reach ${targetTotalStories} stories`);
-
-    const expandedLocations = [];
-    for (let i = 0; i < timesToUse; i++) {
-        expandedLocations.push(...allLocations);
-    }
+    // Use each location exactly once for maximum variety
+    // This gives us ~1100 stories = ~367 pages with 3 stories/page
+    // At ~40 words/story = ~44,000 words (close to 50k target)
 
     // Shuffle for variety
-    for (let i = expandedLocations.length - 1; i > 0; i--) {
+    for (let i = allLocations.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [expandedLocations[i], expandedLocations[j]] = [expandedLocations[j], expandedLocations[i]];
+        [allLocations[i], allLocations[j]] = [allLocations[j], allLocations[i]];
     }
 
-    console.log(`Generating ${expandedLocations.length} stories...`);
+    console.log(`Generating ${allLocations.length} stories (one per location)...`);
 
     // Generate ALL stories first (with their seasons captured)
     const allStories = [];
-    for (let i = 0; i < expandedLocations.length; i++) {
-        const location = expandedLocations[i];
+    for (let i = 0; i < allLocations.length; i++) {
+        const location = allLocations[i];
         const story = storyGen.generateStory(location);
         allStories.push(story);
 
         if ((i + 1) % 100 === 0) {
-            console.log(`  Generated ${i + 1}/${expandedLocations.length} stories...`);
+            console.log(`  Generated ${i + 1}/${allLocations.length} stories...`);
         }
     }
 

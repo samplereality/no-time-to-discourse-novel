@@ -82,7 +82,7 @@ function generatePreamble() {
 \\usepackage[T1]{fontenc}
 \\usepackage{newunicodechar}
 \\usepackage{graphicx}
-\\usepackage[margin=0.5in,top=0.75in,bottom=0.75in]{geometry}
+\\usepackage[margin=0.5in,top=0.75in,bottom=0.75in,footskip=0.5in]{geometry}
 \\usepackage[absolute,overlay]{textpos}
 \\usepackage{eso-pic}
 \\usepackage{xcolor}
@@ -98,7 +98,7 @@ function generatePreamble() {
 % Define Hawaiian 'okina character (U+02BB)
 \\newunicodechar{ʻ}{\\textquotesingle}
 
-% Page style
+% Page style - no headers or footers (page numbers added manually per page)
 \\pagestyle{empty}
 
 % Set textpos units to inches
@@ -213,19 +213,24 @@ function generateChapterHeader(chapterNumber, chapterTitle) {
  * @returns {Object} { x, y } position in inches on the page
  */
 function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
-    // Story box dimensions (from LaTeX definition)
-    const BOX_WIDTH = 3.0;   // textblock width in inches
-    const BOX_HEIGHT = 2.0;  // estimated height for typical story
-    const MARGIN = 0.2;      // minimum gap between boxes
+    // Story box dimensions (actual measured dimensions from PDF)
+    const BOX_WIDTH = 2.75;   // actual measured width in inches
+    const BOX_HEIGHT = 2.45;  // actual measured max height in inches
+    const MARGIN = 0.3;       // minimum gap between boxes
+
+    // Map margins (maps now have 0.25" margin on all sides)
+    const MAP_MARGIN = 0.25;
 
     // Calculate normalized position (0-1) within tile bounds
     const normalizedX = (lon - tileBounds.west) / (tileBounds.east - tileBounds.west);
     const normalizedY = (tileBounds.north - lat) / (tileBounds.north - tileBounds.south);
 
-    // Convert to page coordinates (8.5" x 11" page with 0.5" margins)
-    // Page content area: 7.5" wide x 10" tall
-    const originalX = 0.5 + (normalizedX * 7.5);
-    const originalY = 0.5 + (normalizedY * 10);
+    // Convert to page coordinates
+    // Page is 8.5" x 11"
+    // Map has 0.25" margins, so map area is 8" x 10.5"
+    // Map starts at (0.25", 0.25")
+    const originalX = MAP_MARGIN + (normalizedX * 8.0);
+    const originalY = MAP_MARGIN + (normalizedY * 10.5);
 
     /**
      * Check if two bounding boxes overlap
@@ -284,12 +289,13 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
     for (const testPos of spiralPositions) {
         testedCount++;
 
-        // Check if box would fit within page boundaries (accounting for box size)
-        // Page is 8.5" × 11" with 0.5" margins, so content area is 7.5" × 10"
-        // Left edge must be >= 0.5, right edge (x + width) must be <= 8.0
-        // Top edge must be >= 0.5, bottom edge (y + height) must be <= 10.5
-        if (testPos.x < 0.5 || testPos.x + BOX_WIDTH > 8.0 ||
-            testPos.y < 0.5 || testPos.y + BOX_HEIGHT > 10.5) {
+        // Check if box would fit within map boundaries (accounting for box size and margins)
+        // Page is 8.5" × 11"
+        // Map has 0.25" margins, so map area is 8" × 10.5" starting at (0.25", 0.25")
+        // Left edge must be >= 0.25, right edge (x + width) must be <= 8.25
+        // Top edge must be >= 0.25, bottom edge (y + height) must be <= 10.75
+        if (testPos.x < MAP_MARGIN || testPos.x + BOX_WIDTH > (8.5 - MAP_MARGIN) ||
+            testPos.y < MAP_MARGIN || testPos.y + BOX_HEIGHT > (11 - MAP_MARGIN)) {
             rejectedBoundary++;
             continue;
         }
@@ -314,11 +320,11 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
         }
     }
 
-    // If all positions failed, log warning and return the original position
+    // If all positions failed, log warning and return the original position (clamped to map bounds)
     console.warn(`  WARNING: Could not find non-overlapping position after ${testedCount} attempts! Using original position.`);
     return {
-        x: Math.max(0.5, Math.min(originalX, 8.0 - BOX_WIDTH)),
-        y: Math.max(0.5, Math.min(originalY, 10.5 - BOX_HEIGHT))
+        x: Math.max(MAP_MARGIN, Math.min(originalX, (8.5 - MAP_MARGIN) - BOX_WIDTH)),
+        y: Math.max(MAP_MARGIN, Math.min(originalY, (11 - MAP_MARGIN) - BOX_HEIGHT))
     };
 }
 
@@ -337,14 +343,20 @@ function generatePage(mapImagePath, stories, pageNumber, tileInfo) {
     let latex = `
 % Page ${pageNumber}
 \\AddToShipoutPictureBG*{%
-  \\includegraphics[width=\\paperwidth,height=\\paperheight,keepaspectratio=false]{${escapedMapPath}}%
+  \\put(0.25in,0.25in){%
+    \\includegraphics[width=8in,height=10.5in,keepaspectratio=false]{${escapedMapPath}}%
+  }%
+  % Page number in bottom margin (below map)
+  \\put(4.25in,0.05in){%
+    \\makebox[0pt]{${pageNumber}}%
+  }%
 }%
 ~\\vfill
 
 `;
 
-    // Calculate positions based on actual geographic coordinates with overlap prevention
-    // Track used positions to prevent overlaps
+    // Sequential placement with geographic priority
+    // Place stories at their actual geographic coordinates, with collision avoidance
     const usedPositions = [];
 
     stories.forEach((story, index) => {
@@ -358,22 +370,17 @@ function generatePage(mapImagePath, stories, pageNumber, tileInfo) {
         // Add location header
         const locationText = `\\textbf{${escapeLatex(story.location)}}\\\\[0.1in]\n${storyText}`;
 
-        // Calculate position based on story's actual coordinates
-        let pos;
-        if (tileInfo && tileInfo.bounds && story.coordinates) {
-            const [lon, lat] = story.coordinates;
-            pos = coordToPagePosition(lat, lon, tileInfo.bounds, usedPositions);
-            usedPositions.push(pos);  // Track this position
-        } else {
-            // Fallback to simple grid if tile info not available
-            const gridPos = index % 5;
-            const positions = [
-                { x: 0.5, y: 1.0 }, { x: 5.0, y: 1.0 },
-                { x: 0.5, y: 5.0 }, { x: 5.0, y: 5.0 },
-                { x: 2.75, y: 8.0 }
-            ];
-            pos = positions[gridPos];
-        }
+        // Get geographic position for this story
+        // coordToPagePosition will try the exact coordinates first, then spiral out if needed
+        const pos = coordToPagePosition(
+            story.coordinates[1],  // latitude
+            story.coordinates[0],  // longitude
+            tileInfo.bounds,
+            usedPositions
+        );
+
+        // Add this position to used positions
+        usedPositions.push(pos);
 
         latex += `\\storybox{${pos.x.toFixed(2)}}{${pos.y.toFixed(2)}}{${locationText}}\n\n`;
     });
@@ -406,7 +413,7 @@ Generated: ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'l
 \\vspace{0.2in}
 
 Code available under GPLv3 license at:\\\\
-\\url{https://github.com/samplereality/no-time-to-discourse}
+\\url{https://github.com/samplereality/no-time-to-discourse-novel}
 
 \\end{document}
 `;
