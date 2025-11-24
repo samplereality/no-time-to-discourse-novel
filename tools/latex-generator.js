@@ -201,6 +201,11 @@ function generateChapterHeader(chapterNumber, chapterTitle) {
 `;
 }
 
+// Story box dimensions (shared constants)
+const BOX_WIDTH = 2.75;   // actual measured width in inches
+const BOX_HEIGHT = 2.45;  // actual measured max height in inches
+const MARGIN = 0.3;       // minimum gap between boxes
+
 /**
  * Convert lat/lon coordinates to position on the page with overlap prevention
  * based on the map tile bounds
@@ -213,10 +218,6 @@ function generateChapterHeader(chapterNumber, chapterTitle) {
  * @returns {Object} { x, y } position in inches on the page
  */
 function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
-    // Story box dimensions (actual measured dimensions from PDF)
-    const BOX_WIDTH = 2.75;   // actual measured width in inches
-    const BOX_HEIGHT = 2.45;  // actual measured max height in inches
-    const MARGIN = 0.3;       // minimum gap between boxes
 
     // Map margins (maps now have 0.25" margin on all sides)
     const MAP_MARGIN = 0.25;
@@ -235,26 +236,28 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
 
     /**
      * Check if two bounding boxes overlap
+     * Coordinates: (x,y) is bottom-left corner, Y increases upward
      */
     function boxesOverlap(x1, y1, x2, y2) {
         // Box 1 bounds (with margin)
+        // (x,y) is bottom-left, so box extends right and up
         const box1Left = x1 - MARGIN;
         const box1Right = x1 + BOX_WIDTH + MARGIN;
-        const box1Top = y1 - MARGIN;
-        const box1Bottom = y1 + BOX_HEIGHT + MARGIN;
+        const box1Bottom = y1 - MARGIN;  // Y coordinate of bottom edge
+        const box1Top = y1 + BOX_HEIGHT + MARGIN;  // Y coordinate of top edge
 
         // Box 2 bounds (with margin)
         const box2Left = x2 - MARGIN;
         const box2Right = x2 + BOX_WIDTH + MARGIN;
-        const box2Top = y2 - MARGIN;
-        const box2Bottom = y2 + BOX_HEIGHT + MARGIN;
+        const box2Bottom = y2 - MARGIN;
+        const box2Top = y2 + BOX_HEIGHT + MARGIN;
 
         // Check for overlap (if boxes DON'T overlap, one of these will be true)
         const noOverlap = (
             box1Right < box2Left ||   // box1 is completely to the left of box2
             box1Left > box2Right ||   // box1 is completely to the right of box2
-            box1Bottom < box2Top ||   // box1 is completely above box2
-            box1Top > box2Bottom      // box1 is completely below box2
+            box1Top < box2Bottom ||   // box1 is completely below box2 (Y increases upward!)
+            box1Bottom > box2Top      // box1 is completely above box2
         );
 
         return !noOverlap;
@@ -373,6 +376,61 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
 }
 
 /**
+ * Test if stories can be placed on a page without overlap
+ * Returns array of stories that can fit (may be fewer than input if some can't fit)
+ *
+ * @param {Array} stories - Array of story objects with coordinates
+ * @param {Object} tileInfo - Tile information including bounds
+ * @returns {Array} Stories that can fit on the page
+ */
+function getStoriesThatFit(stories, tileInfo) {
+    const usedPositions = [];
+    const fittingStories = [];
+
+    for (const story of stories) {
+        const pos = coordToPagePosition(
+            story.coordinates[1],  // latitude
+            story.coordinates[0],  // longitude
+            tileInfo.bounds,
+            usedPositions
+        );
+
+        // Check if this position actually avoids overlap
+        let hasOverlap = false;
+        for (const used of usedPositions) {
+            const box1Left = pos.x - MARGIN;
+            const box1Right = pos.x + BOX_WIDTH + MARGIN;
+            const box1Bottom = pos.y - MARGIN;
+            const box1Top = pos.y + BOX_HEIGHT + MARGIN;
+
+            const box2Left = used.x - MARGIN;
+            const box2Right = used.x + BOX_WIDTH + MARGIN;
+            const box2Bottom = used.y - MARGIN;
+            const box2Top = used.y + BOX_HEIGHT + MARGIN;
+
+            const noOverlap = (
+                box1Right < box2Left ||
+                box1Left > box2Right ||
+                box1Top < box2Bottom ||
+                box1Bottom > box2Top
+            );
+
+            if (!noOverlap) {
+                hasOverlap = true;
+                break;
+            }
+        }
+
+        if (!hasOverlap) {
+            fittingStories.push(story);
+            usedPositions.push(pos);
+        }
+    }
+
+    return fittingStories;
+}
+
+/**
  * Generate a single page with map background and stories
  *
  * @param {String} mapImagePath - Path to the map tile image
@@ -381,6 +439,12 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
  * @param {Object} tileInfo - Tile information including bounds
  */
 function generatePage(mapImagePath, stories, pageNumber, tileInfo) {
+    // Pre-check: see if all stories will fit
+    const fittingStories = getStoriesThatFit(stories, tileInfo);
+    if (fittingStories.length < stories.length) {
+        console.log(`  Page ${pageNumber}: Only ${fittingStories.length}/${stories.length} stories fit, reducing page content`);
+        stories = fittingStories;
+    }
     // Escape ampersands in file paths for LaTeX
     const escapedMapPath = mapImagePath.replace(/&/g, '\\&');
 
@@ -423,6 +487,32 @@ function generatePage(mapImagePath, stories, pageNumber, tileInfo) {
             usedPositions
         );
 
+        // Verify no overlap before adding (diagnostic check)
+        for (const used of usedPositions) {
+            const box1Left = pos.x - MARGIN;
+            const box1Right = pos.x + BOX_WIDTH + MARGIN;
+            const box1Bottom = pos.y - MARGIN;
+            const box1Top = pos.y + BOX_HEIGHT + MARGIN;
+
+            const box2Left = used.x - MARGIN;
+            const box2Right = used.x + BOX_WIDTH + MARGIN;
+            const box2Bottom = used.y - MARGIN;
+            const box2Top = used.y + BOX_HEIGHT + MARGIN;
+
+            const noOverlap = (
+                box1Right < box2Left ||
+                box1Left > box2Right ||
+                box1Top < box2Bottom ||
+                box1Bottom > box2Top
+            );
+
+            if (!noOverlap) {
+                console.warn(`  WARNING: Page ${pageNumber}, story ${index + 1} WILL OVERLAP with existing story!`);
+                console.warn(`    New: (${pos.x.toFixed(2)}, ${pos.y.toFixed(2)})`);
+                console.warn(`    Existing: (${used.x.toFixed(2)}, ${used.y.toFixed(2)})`);
+            }
+        }
+
         // Add this position to used positions
         usedPositions.push(pos);
 
@@ -448,15 +538,15 @@ This novel was procedurally generated using RiTa.js grammar rules written by Mar
 
 \\vspace{0.2in}
 
-Maps: Stamen Design watercolor tiles
+\\noindent Maps: Stamen Design watercolor tiles
 
 \\vspace{0.2in}
 
-Generated: ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+\\noindent Generated: ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
 
 \\vspace{0.2in}
 
-Code available under GPLv3 license at:\\\\
+\\noindent Code available under GPLv3 license at:\\\\
 \\url{https://github.com/samplereality/no-time-to-discourse-novel}
 
 \\end{document}
