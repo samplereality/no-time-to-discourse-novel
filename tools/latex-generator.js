@@ -220,6 +220,7 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
 
     // Map margins (maps now have 0.25" margin on all sides)
     const MAP_MARGIN = 0.25;
+    const EDGE_PADDING = 0.15; // extra padding from page edges (a skosh!)
 
     // Calculate normalized position (0-1) within tile bounds
     const normalizedX = (lon - tileBounds.west) / (tileBounds.east - tileBounds.west);
@@ -259,45 +260,42 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
         return !noOverlap;
     }
 
-    // Try positions in a spiral pattern starting from the original position
-    const spiralPositions = [];
+    // Generate candidate positions in a spiral pattern
+    const candidatePositions = [];
 
     // Add the original position first
-    spiralPositions.push({ x: originalX, y: originalY });
+    candidatePositions.push({ x: originalX, y: originalY });
 
     // Generate spiral positions radiating outward
-    // With 3 stories per page, we need fewer but better-spaced positions
-    const angleSteps = 16; // Try 16 angles per ring for comprehensive coverage
-    const maxRings = 10;   // Try up to 10 rings outward (covers ~7.5" radius)
+    const angleSteps = 16; // Try 16 angles per ring
+    const maxRings = 10;   // Try up to 10 rings outward
 
     for (let ring = 1; ring <= maxRings; ring++) {
         const radius = ring * 0.75; // Each ring is 0.75" further out
         for (let i = 0; i < angleSteps; i++) {
             const angle = (i / angleSteps) * Math.PI * 2;
-            spiralPositions.push({
+            candidatePositions.push({
                 x: originalX + Math.cos(angle) * radius,
                 y: originalY + Math.sin(angle) * radius
             });
         }
     }
 
-    // Try each position until we find one that doesn't overlap
-    let testedCount = 0;
-    let rejectedBoundary = 0;
-    let rejectedOverlap = 0;
+    // Define valid area boundaries (with edge padding)
+    const minX = MAP_MARGIN + EDGE_PADDING;
+    const maxX = 8.5 - MAP_MARGIN - EDGE_PADDING;
+    const minY = MAP_MARGIN + EDGE_PADDING;
+    const maxY = 11 - MAP_MARGIN - EDGE_PADDING;
 
-    for (const testPos of spiralPositions) {
-        testedCount++;
+    // Filter candidates to only valid positions (within bounds and no overlap)
+    const validPositions = [];
 
-        // Check if box would fit within map boundaries (accounting for box size and margins)
-        // Page is 8.5" × 11"
-        // Map has 0.25" margins, so map area is 8" × 10.5" starting at (0.25", 0.25")
-        // Left edge must be >= 0.25, right edge (x + width) must be <= 8.25
-        // Top edge must be >= 0.25, bottom edge (y + height) must be <= 10.75
-        if (testPos.x < MAP_MARGIN || testPos.x + BOX_WIDTH > (8.5 - MAP_MARGIN) ||
-            testPos.y < MAP_MARGIN || testPos.y + BOX_HEIGHT > (11 - MAP_MARGIN)) {
-            rejectedBoundary++;
-            continue;
+    for (const testPos of candidatePositions) {
+        // Check if box would fit within map boundaries
+
+        if (testPos.x < minX || testPos.x + BOX_WIDTH > maxX ||
+            testPos.y < minY || testPos.y + BOX_HEIGHT > maxY) {
+            continue; // Out of bounds
         }
 
         // Check for overlap with all existing boxes
@@ -310,21 +308,67 @@ function coordToPagePosition(lat, lon, tileBounds, usedPositions = []) {
         }
 
         if (!hasOverlap) {
-            // Found a good position!
-            if (testedCount > 10) {
-                console.log(`  Found position after ${testedCount} attempts (${rejectedBoundary} boundary, ${rejectedOverlap} overlap)`);
-            }
-            return testPos;
-        } else {
-            rejectedOverlap++;
+            // Calculate distance from original position (for scoring)
+            const distance = Math.sqrt(
+                Math.pow(testPos.x - originalX, 2) +
+                Math.pow(testPos.y - originalY, 2)
+            );
+            validPositions.push({
+                x: testPos.x,
+                y: testPos.y,
+                distance: distance
+            });
         }
     }
 
-    // If all positions failed, log warning and return the original position (clamped to map bounds)
-    console.warn(`  WARNING: Could not find non-overlapping position after ${testedCount} attempts! Using original position.`);
+    // If we found valid positions, return the one closest to the original location
+    if (validPositions.length > 0) {
+        // Sort by distance (closest first)
+        validPositions.sort((a, b) => a.distance - b.distance);
+        const best = validPositions[0];
+
+        if (best.distance > 0.5) {
+            console.log(`  Placed story ${Math.round(best.distance * 100) / 100}" from true location (${validPositions.length} candidates)`);
+        }
+
+        return { x: best.x, y: best.y };
+    }
+
+    // If no valid positions found, this is a serious problem
+    // Try to find ANY position on the page that doesn't overlap
+    console.warn(`  WARNING: Could not find position in spiral! Searching entire page...`);
+
+    // Create a grid of positions across the entire page
+    const gridPositions = [];
+    const stepSize = 0.5; // Check every 0.5 inches
+
+    for (let x = minX; x <= maxX - BOX_WIDTH; x += stepSize) {
+        for (let y = minY; y <= maxY - BOX_HEIGHT; y += stepSize) {
+            gridPositions.push({ x, y });
+        }
+    }
+
+    // Find valid grid positions
+    for (const testPos of gridPositions) {
+        let hasOverlap = false;
+        for (const used of usedPositions) {
+            if (boxesOverlap(testPos.x, testPos.y, used.x, used.y)) {
+                hasOverlap = true;
+                break;
+            }
+        }
+
+        if (!hasOverlap) {
+            console.log(`  Found fallback position at (${testPos.x.toFixed(2)}, ${testPos.y.toFixed(2)})`);
+            return testPos;
+        }
+    }
+
+    // Absolute last resort - place it anyway and warn loudly
+    console.error(`  ERROR: NO VALID POSITION EXISTS! This story will overlap!`);
     return {
-        x: Math.max(MAP_MARGIN, Math.min(originalX, (8.5 - MAP_MARGIN) - BOX_WIDTH)),
-        y: Math.max(MAP_MARGIN, Math.min(originalY, (11 - MAP_MARGIN) - BOX_HEIGHT))
+        x: Math.max(minX, Math.min(originalX, maxX - BOX_WIDTH)),
+        y: Math.max(minY, Math.min(originalY, maxY - BOX_HEIGHT))
     };
 }
 

@@ -236,9 +236,13 @@ async function generateNovel() {
 
     console.log(`Total unique locations: ${allLocations.length}`);
 
-    // Use each location exactly once for maximum variety
-    // This gives us ~1100 stories = ~367 pages with 3 stories/page
-    // At ~40 words/story = ~44,000 words (close to 50k target)
+    // Load high-population cities for generating additional stories
+    const highPopData = JSON.parse(fs.readFileSync('./output/high-population-locations.json', 'utf8'));
+    console.log(`High-population cities: ${highPopData.features.length}`);
+
+    // Target ~1200 stories for 50,000 words
+    // Strategy: Use each location once, then add second stories for high-population cities
+    const targetStories = 1200;
 
     // Shuffle for variety
     for (let i = allLocations.length - 1; i > 0; i--) {
@@ -248,7 +252,7 @@ async function generateNovel() {
 
     console.log(`Generating ${allLocations.length} stories (one per location)...`);
 
-    // Generate ALL stories first (with their seasons captured)
+    // Generate ALL stories first
     const allStories = [];
     for (let i = 0; i < allLocations.length; i++) {
         const location = allLocations[i];
@@ -260,7 +264,53 @@ async function generateNovel() {
         }
     }
 
-    console.log(`Generated ${allStories.length} total stories`);
+    console.log(`Generated ${allStories.length} initial stories`);
+
+    // Generate additional stories to reach target
+    const additionalNeeded = targetStories - allStories.length;
+    if (additionalNeeded > 0) {
+        console.log(`\nGenerating ${additionalNeeded} additional stories...`);
+
+        // First, use high-pop cities (up to 202 available)
+        const highPopCount = Math.min(additionalNeeded, highPopData.features.length);
+        console.log(`  Using ${highPopCount} high-population cities`);
+
+        for (let i = 0; i < highPopCount; i++) {
+            const location = highPopData.features[i];
+            const story = storyGen.generateStory(location);
+            allStories.push(story);
+
+            if ((i + 1) % 50 === 0) {
+                console.log(`  Generated ${i + 1}/${highPopCount} high-pop stories...`);
+            }
+        }
+
+        // If we still need more, randomly select from all locations
+        const stillNeeded = additionalNeeded - highPopCount;
+        if (stillNeeded > 0) {
+            console.log(`  Randomly selecting ${stillNeeded} more locations for additional stories`);
+
+            // Shuffle all locations
+            const shuffledLocations = [...allLocations];
+            for (let i = shuffledLocations.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledLocations[i], shuffledLocations[j]] = [shuffledLocations[j], shuffledLocations[i]];
+            }
+
+            // Take the first stillNeeded locations
+            for (let i = 0; i < stillNeeded; i++) {
+                const location = shuffledLocations[i];
+                const story = storyGen.generateStory(location);
+                allStories.push(story);
+
+                if ((i + 1) % 50 === 0) {
+                    console.log(`  Generated ${i + 1}/${stillNeeded} random additional stories...`);
+                }
+            }
+        }
+
+        console.log(`Total stories: ${allStories.length}`);
+    }
 
     // Skip seasonal organization - cluster all stories geographically
     console.log('\n=== PHASE 2: Geographic clustering (all stories) ===\n');

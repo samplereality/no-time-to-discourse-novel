@@ -1,0 +1,4648 @@
+[
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Glendale",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "Arrowhead Ranch | the Thunderbird Conservation Park | the old courthouse | the Foothills Recreation Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.19582381371242,
+          33.58194114077577
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 141,
+      "city": "Glendale city, California",
+      "population2024": 187823
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Mesa",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "the Superstition Mountains | downtown | Hohokam Stadium | the riverfronts | Red Mountain Park | the Mesa Arts Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.73608443382778,
+          33.42391461082718
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 37,
+      "city": "Mesa city, Arizona",
+      "population2024": 517151
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Berkeley",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the University of California Berkeley | Moe's Books | the Berkeley Rose Garden | the Lawrence Berkeley National Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27115197944283,
+          37.87390138656116
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 245,
+      "city": "Berkeley city, California",
+      "population2024": 121749
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Mission Inn Hotel & Spa | the University of California Riverside | Mount Rubidoux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39803857610303,
+          33.941945006336994
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 61,
+      "city": "Riverside city, California",
+      "population2024": 323757
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Vallejo",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Mare Island Historic Park | the Vallejo Naval and Historical Museum | Six Flags Discovery Kingdom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25805200385685,
+          38.11194887191374
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 238,
+      "city": "Vallejo city, California",
+      "population2024": 123475
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Aurora",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "the Aurora History Museum | the jail | the Plains Conservation Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.80849695007606,
+          39.695857359875845
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 147,
+      "city": "Aurora city, Illinois",
+      "population2024": 180710
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Greeley",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "the University of Northern Colorado | the elementary school | the old courthouse | the Greeley History Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.73997400085705,
+          40.41919822088124
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 272,
+      "city": "Greeley city, Colorado",
+      "population2024": 114363
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Vegas",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "the City of Las Vegas Museum | the old Carnegie Library | the central business district"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2225026873823,
+          35.597011941565086
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 24,
+      "city": "Las Vegas city, Nevada",
+      "population2024": 678922
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "the Springfield Museum| Willamette University"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.97803389676324,
+          44.05194805813534
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 279,
+      "city": "Springfield city, Illinois",
+      "population2024": 112949
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ontario",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "the Four Rivers Cultural Center| the Treasure Valley Community College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.96188948755963,
+          44.02662660631239
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 143,
+      "city": "Ontario city, California",
+      "population2024": 185285
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Kansas City",
+        "adm1name": "Kansas",
+        "note": null,
+        "POI": "the Argentine District | the University of Kansas Medical Center | the Wyandotte County Courthouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.63014637712371,
+          39.11358051694344
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 175,
+      "city": "Kansas City city, Kansas",
+      "population2024": 156752
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Independence",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "the Harry S Truman Presidential Library | the National Frontier Trails Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.41528121110224,
+          39.09111391098014
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 246,
+      "city": "Independence city, Missouri",
+      "population2024": 121629
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "McAllen",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the International Museum of Art & Science | the old courthouse | the Hidalgo County Courthouse | Quinta Mazatlan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.22972538429457,
+          26.20303753560313
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 186,
+      "city": "McAllen city, Texas",
+      "population2024": 148782
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "New Braunfels",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Schlitterbahn Waterpark |  the Gruene Historic District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12632084327856,
+          29.697811298637816
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 262,
+      "city": "New Braunfels city, Texas",
+      "population2024": 116477
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasadena",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "Washburn Tunnel | Tepatitlan Bakery | Dollar Tree | Taqueri De Jalisco | Chevron Phillips"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.14774296240728,
+          29.660862649549188
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 212,
+      "city": "Pasadena city, California",
+      "population2024": 137195
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Arlington",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Six Flags Over Texas | AT&T Stadium | Texas Live! | Choctaw Stadium | New York Eats"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.02023848650327,
+          32.68476076154036
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 50,
+      "city": "Arlington city, Texas",
+      "population2024": 403672
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Stamford",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "Ridgeway Shopping Center | Chelsea Piers Connecticut | Grade A Market | Java Joe's | Scalzi Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.53919112312803,
+          41.053345559750994
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 205,
+      "city": "Stamford city, Connecticut",
+      "population2024": 139134
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Waterbury",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "the Costco Food Court | Fulton Park | Red White & Blue Thrift Store | Los Garcia Mexican Fusion | Brooklyn Baking Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.05002201505323,
+          41.5500077505082
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 265,
+      "city": "Waterbury city, Connecticut",
+      "population2024": 115908
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Baystate Medical Center | Food Zone | MassMutual Center | Smead Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5799990251424,
+          42.120024636903736
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 279,
+      "city": "Springfield city, Illinois",
+      "population2024": 112949
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Salem Hospital | Salem Common | Salem Dog Park | the Salem Witch Museum | Busa Wine & Spirits"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.88309174577591,
+          42.5224989034777
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 148,
+      "city": "Salem city, Oregon",
+      "population2024": 180406
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Coral Springs",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Riverside Park | Cypress Park | the Church by the Glades | Macys"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.27082157562899,
+          26.270837014769995
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 199,
+      "city": "Coral Springs city, Florida",
+      "population2024": 140808
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Meridian",
+        "adm1name": "Mississippi",
+        "note": null,
+        "POI": "Meridian Crossroads | Uptown Meridian | Aldersgate Retirement Community | Books-A-Million | the Daily Grind"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.70361434096219,
+          32.36418601381769
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 203,
+      "city": "Meridian city, Idaho",
+      "population2024": 139740
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Joliet",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "the Autobahn Country Club | Tony's Finer Foods | Louis Joliet Mall | Cherry Hill Cafe | Presence Saint Joseph Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.10667403334259,
+          41.529983132995085
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 179,
+      "city": "Joliet city, Illinois",
+      "population2024": 151837
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockford",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "BMO Harris Bank Center | Toad Hall Books and Records | Valli Produce | Pinnon | Beef-A-Roo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.06969018731786,
+          42.26970542303718
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 189,
+      "city": "Rockford city, Illinois",
+      "population2024": 147486
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Elgin",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "Camp Big Timber | Butera Market | Burnidge Forest Preserve | Presence Saint Joseph Hospital | Country Donuts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.28991866224959,
+          42.03946107896064
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 270,
+      "city": "Elgin city, Illinois",
+      "population2024": 114701
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Glen Miller Park | Fricker's | La Mexicana Mini Market | Golden Living Center | Richmond High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.89028121106406,
+          39.82889833481124
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 268,
+      "city": "Richmond city, California",
+      "population2024": 115353
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lafayette",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Arnett Hospital | Mike Aulby's Arrowhead Bowl | Igloo Frozen Custard | Cheddar's Scratch Kitchen | the John T. Myers Pedestrian Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.87824772311632,
+          40.41720867823807
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 242,
+      "city": "Lafayette city, Louisiana",
+      "population2024": 122280
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Durham",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Duke University | downtown | the tobacco district | Brightleaf Square | the Amtrak station | Durham Bulls Athletic Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.91999963551939,
+          35.999958922360975
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 71,
+      "city": "Durham city, North Carolina",
+      "population2024": 301870
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "the Rural King | the Clark County Fair Grounds | Springfield Antique Center | Fricker's | the Springfield Extravaganza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.79998600435408,
+          39.920003884941764
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 279,
+      "city": "Springfield city, Illinois",
+      "population2024": 112949
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "the River Valley Mall | the Fairfield Medical Center | Lancaster High School | Castaways | Roosters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.60530440441431,
+          39.71921510727168
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 160,
+      "city": "Lancaster city, California",
+      "population2024": 167426
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Maury County Park | Apex Recovery | Tennessee Coffee & Smoothie Co. | Mid-Tennessee Bone And Joint Clinic | Lucky Bamboo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.03526656263517,
+          35.61499534000268
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 222,
+      "city": "Columbia city, Missouri",
+      "population2024": 130900
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hampton",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "Peninsula Town Center | Hampton VA Medical Center | Buckroe Beach | Briarfield Park | Langley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.34994979013152,
+          37.030025247234846
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 210,
+      "city": "Hampton city, Virginia",
+      "population2024": 137596
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Paterson",
+        "adm1name": "New Jersey",
+        "note": null,
+        "POI": "Eastside Park | Brother's Produce | Hinchliffe Stadium | Taşkın Bakery | Red, White And Blue Thrift Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1700053321149,
+          40.9199945262219
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 167,
+      "city": "Paterson city, New Jersey",
+      "population2024": 160463
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "the Shoppes At Belmont | Wegmans | Park City Center Food Court | Dragon Hibachi & Sushi Buffet | Park City Diner & Coffee Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.30576644052195,
+          40.03777447413495
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 160,
+      "city": "Lancaster city, California",
+      "population2024": 167426
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Allentown",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "Coca-Cola Park | St. Luke's Hospital | PPL Center | Supremo Food Market | Elias Farmer's Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.50002750822705,
+          40.599988219254385
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 229,
+      "city": "Allentown city, Pennsylvania",
+      "population2024": 127138
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochester",
+        "adm1name": "Minnesota",
+        "note": null,
+        "POI": "Scheels | Fleet Farm | Colonial Lanes | Rochester National Volleyball Center | Bowlocity Entertainment Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.46968937352938,
+          44.0220532420546
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 237,
+      "city": "Rochester city, Minnesota",
+      "population2024": 123624
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Everett",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Everett Mall | Costco | Angel of the Winds Arena | Kasch Park | Costco Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19996769396067,
+          47.96041749988274
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 278,
+      "city": "Everett city, Washington",
+      "population2024": 113011
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Scottsdale",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "The Promenade | Harkins Camelview 14 | the Scottsdale Waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86804020368504,
+          33.69234783836737
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 94,
+      "city": "Scottsdale city, Arizona",
+      "population2024": 246170
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Stockton",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Delta | downtown | the university | the port | Weber Point | Stockton 99 Speedway | Don Luis Méxican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.28973901557174,
+          37.95813397119696
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 60,
+      "city": "Stockton city, California",
+      "population2024": 324975
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Victorville",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Vallarta Supermarkets | Village Park | Emma Jean's Holland Burger Cafe | Doris Davies Park | Sunset Ridge Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.29031905299064,
+          34.5365081980712
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 200,
+      "city": "Victorville city, California",
+      "population2024": 140721
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasadena",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Rose Bowl | Brookside Park | Vallarta Supermarkets | Rose Bowl Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13887190943927,
+          34.1603812856348
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 212,
+      "city": "Pasadena city, California",
+      "population2024": 137195
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Visalia",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "KOA Visalia | R-N Market | Vossler Farms Pumpkin Patch & Corn Maze | Vallarta Supermarkets | Riverway Sports Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.31600936061591,
+          36.325029519692976
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 192,
+      "city": "Visalia city, California",
+      "population2024": 146271
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Rosa",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Taylor Mountain Open Space Preserve | Epicenter Sports And Entertainment | Oliver's Market | Wine Country Cafe & Deli | Kaiser Permanente Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69998885281694,
+          38.450403665209365
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 151,
+      "city": "Santa Rosa city, California",
+      "population2024": 177524
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Oceanside",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Guajome Regional Park | El Super | Mission San Luis Rey de Francia | Oceanside Beach | the So Cal Sports Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.33496749049078,
+          33.22046449689407
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 155,
+      "city": "Oceanside city, California",
+      "population2024": 170941
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Modesto",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "El Rematito Flea Market | Taqueria El Maguey | Cost Less Foods | Sutter Gould Medical Foundation | Cost Less"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.98998987006269,
+          37.655413430831175
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 109,
+      "city": "Modesto city, California",
+      "population2024": 220592
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Irvine",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the campus | Woodbury Town Center | Heritage Plaza Shopping Center | Diamond Jamboree Shopping Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.82995019719846,
+          33.680410582507875
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 62,
+      "city": "Irvine city, California",
+      "population2024": 318683
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Collins",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "Front Range Village Shopping Center | Twin Silo Park | Arc Thrift Store | City Park | Holiday Twin Drive In"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05886926453013,
+          40.56068829249648
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 156,
+      "city": "Fort Collins city, Colorado",
+      "population2024": 170924
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Clovis",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "Foxy Drive-In | Guy Leeder Complex | Greene Acres Park | Bob Spencer Softball Fields | Leal's Mexican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.20477055033012,
+          34.40506919253687
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 227,
+      "city": "Clovis city, California",
+      "population2024": 127993
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Cruces",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "Spotted Dog Brewery | the NMSU Golf Course | Field Of Dreams | Mesilla Valley Mall | Si Señor Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.77780827007098,
+          32.312612934390586
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 259,
+      "city": "Las Cruces city, New Mexico",
+      "population2024": 116998
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fayetteville",
+        "adm1name": "Arkansas",
+        "note": null,
+        "POI": "the Northwest Arkansas Mall | Wright's Barbecue | Premier Wine & Spirit | Baum Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1572091082366,
+          36.06297833154093
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 116,
+      "city": "Fayetteville city, North Carolina",
+      "population2024": 209496
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "Mizzou Aquatic Center | Boone Hospital Center | Goodwill Retail Store | Jazz, A Louisiana Kitchen | Lakota at University Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.33390954768231,
+          38.95207846989888
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 222,
+      "city": "Columbia city, Missouri",
+      "population2024": 130900
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Norfolk",
+        "adm1name": "Nebraska",
+        "note": null,
+        "POI": "Sunset Plaza Mall | the Elkhorn Valley Museum | Velocity Clinical Research | the First Christian Church | Bomgaars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43359826840594,
+          42.028712381043874
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 100,
+      "city": "Norfolk city, Virginia",
+      "population2024": 231105
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Norman",
+        "adm1name": "Oklahoma",
+        "note": null,
+        "POI": "Riverwind Casino | Bookmark Cafe | Atwoods | Moore Norman Technology Center | Braum's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.34414636410872,
+          35.22791302392045
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 221,
+      "city": "Norman city, Oklahoma",
+      "population2024": 131010
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Conroe",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Montgomery County Fair Grounds | Carl Barton Jr Park | River Plantation Country Club | Vernon's Kuntry Katfish | Phở & Sushi Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.45586368994748,
+          30.312063211075213
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 271,
+      "city": "Conroe city, Texas",
+      "population2024": 114581
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Huntsville",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Potato Shack | Grand Buffet | the Sam Houston Statue | the Texas State Prison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.55058659033847,
+          30.723769347144525
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 102,
+      "city": "Huntsville city, Alabama",
+      "population2024": 230402
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Killeen",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the 3d Cavalry Regiment Museum | Warrior Way Post Exchange | Los Burritos | C.E. Ellison High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72748213884978,
+          31.117285379047132
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 166,
+      "city": "Killeen city, Texas",
+      "population2024": 160616
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Beaumont",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "Patillo's Barbeque | Chicken Express | J Wilson's | Happy Donut | Ford Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.10168278173899,
+          30.08626304017588
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 280,
+      "city": "Beaumont city, Texas",
+      "population2024": 112893
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Denton",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Golden Triangle Mall | Thrift Giant | Braum's | the Old Alton Bridge | CH Collins Athletic Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.12883650896458,
+          33.21576194155551
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 161,
+      "city": "Denton city, Texas",
+      "population2024": 165998
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Midland",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the Midland Beer Garden | La Hacienda Event Center | Green Tree Country Club | Market Street | Midland Memorial Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.09749963561217,
+          32.030717996238366
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 195,
+      "city": "Midland city, Texas",
+      "population2024": 143687
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "New Haven",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "New Haven Green | Yale University | Long Wharf | the Beinecke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.90000533210986,
+          41.33038291326773
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 211,
+      "city": "New Haven city, Connecticut",
+      "population2024": 137562
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lowell",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Lowell General Medical office | Eggroll Cafe | the Pollard Memorial Library | Shedd Park | Peephuptmei Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3166911231192,
+          42.63368837388492
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 249,
+      "city": "Lowell city, Massachusetts",
+      "population2024": 120418
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Worcester",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Lincoln Plaza | White City Shopping Center | The Atrium @ St. Vs | Polar Park | Elm Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80002079434507,
+          42.27042889308922
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 114,
+      "city": "Worcester city, Massachusetts",
+      "population2024": 211286
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester",
+        "adm1name": "New Hampshire",
+        "note": null,
+        "POI": "Mall of New Hampshire Food Court | The Elliot at River's Edge | Aldi | Chunky's Cinema Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455287314526,
+          42.995991840683246
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 263,
+      "city": "Manchester city, New Hampshire",
+      "population2024": 116386
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tuscaloosa",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "Midtown Village | University Mall | Cook Out | Dreamland BBQ | Wrights"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.54417606784557,
+          33.225115375800385
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 275,
+      "city": "Tuscaloosa city, Alabama",
+      "population2024": 114288
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Coral",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Farmer Joe's | North Fort Myers High School | Back Streets Sports Bar | Lelulo's | Mangia Bene Restaurant Italian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.97968367687281,
+          26.602909768677478
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 99,
+      "city": "Cape Coral city, Florida",
+      "population2024": 233025
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Lauderdale",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Holiday Park | Broward Center for the Performing Arts | Elbo Room | Revolution Live | Fort Lauderdale Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.14178552419605,
+          26.13606487935283
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 138,
+      "city": "Fort Lauderdale city, Florida",
+      "population2024": 190641
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbus",
+        "adm1name": "Georgia",
+        "note": null,
+        "POI": "Columbus Park Crossing | Cross Country Plaza | Cooper Creek Park | Stars and Strikes | Heath Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.98001733573898,
+          32.47043275860983
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 124,
+      "city": "Columbus city, Georgia",
+      "population2024": 201830
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Aurora",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.29999556654639,
+          41.765395120300695
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 147,
+      "city": "Aurora city, Illinois",
+      "population2024": 180710
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Wayne",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Jefferson Pointe Mall | Allen County War Memorial Coliseum | the Fort Wayne Children's Zoo | Rich's Cafe | Casa Grille Italiano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.12998234225,
+          41.080398172055766
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 83,
+      "city": "Fort Wayne city, Indiana",
+      "population2024": 273203
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Jacksonville",
+        "adm1name": "North Carolina",
+        "note": 4,
+        "POI": "Marine Corps Exchange | Carolina Ale House | Onslow Pines | Naval Hospital Camp Lejeune | Mi Cabaña"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43055566578681,
+          34.7543243601815
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 10,
+      "city": "Jacksonville city, Florida",
+      "population2024": 1009833
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fayetteville",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Freedom Town Center | Cumberland Veteran Affairs Medical Center | Fort Bragg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88359358896969,
+          35.06293601382862
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 116,
+      "city": "Fayetteville city, North Carolina",
+      "population2024": 209496
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Winston-Salem",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "the Reynolda House | Old Salem | Kermit's Hot Dog House | the Wake Forest campus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.25999536306381,
+          36.105430520668676
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 91,
+      "city": "Winston-Salem city, North Carolina",
+      "population2024": 255769
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Akron",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Stan Hywet Hall | Canal Park | the University of Akron | the Highland Theater | Parasson's | the Goodyear blimp hangar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.51999597342046,
+          41.07039878240721
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 140,
+      "city": "Akron city, Ohio",
+      "population2024": 189664
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Murfreesboro",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "The Avenue | Stones River Mall | Farmers Family Restaurant | Murfreesboro Medical Clinic | Cook Out"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.39026717298418,
+          35.845963154131255
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 158,
+      "city": "Murfreesboro city, Tennessee",
+      "population2024": 168387
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Clarksville",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Governor's Square Mall | Clarksville Speedway | Beachaven Winery | Catfish House | Heritage Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.35943282240208,
+          36.530081603027156
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 142,
+      "city": "Clarksville city, Tennessee",
+      "population2024": 185690
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackson",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Food Giant | North Park | Cypress Grove Nature Park | Brooksie's Barn | Los Portales Mexican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.81389184747303,
+          35.61486614892192
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 198,
+      "city": "Jackson city, Mississippi",
+      "population2024": 141449
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria",
+        "adm1name": "Virginia",
+        "note": null,
+        "POI": "Shoppes of Foxchase | the Old Town Waterfront | Green Spring Gardens | Founders Park | Barnside Diner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.09998152841581,
+          38.82043275863521
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 168,
+      "city": "Alexandria city, Virginia",
+      "population2024": 159102
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilmington",
+        "adm1name": "Delaware",
+        "note": 4,
+        "POI": "Pete's Pizza | China House Express | Chase Fieldhouse | Brandywine Park | Salesianum School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.54689803231582,
+          39.74626771957645
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 233,
+      "city": "Wilmington city, North Carolina",
+      "population2024": 125284
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Newark",
+        "adm1name": "New Jersey",
+        "note": 4,
+        "POI": "Prudential Center | Branch Brook Park | Newark airport | Soul Food Chess House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1700053321149,
+          40.700421365413604
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 64,
+      "city": "Newark city, New Jersey",
+      "population2024": 317303
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Ann Arbor",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "the Ark | Nickels Arcade | Busch's Fresh Food Market | Main Street | the stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7199908871662,
+          42.300375385602365
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 239,
+      "city": "Ann Arbor city, Michigan",
+      "population2024": 122925
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Rapids",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "Van Andel Arena | Frederik Meijer Gardens & Sculpture Park | John Ball Park | the John Ball Zoo | Riverside Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66994938326775,
+          42.96371990871705
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 128,
+      "city": "Grand Rapids city, Michigan",
+      "population2024": 200117
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tacoma",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Metropolitan Market | the Point Defiance Zoo & Aquarium | Clear Choice Cannabis | Browns Point Lighthouse Park | Cheney Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.51501306342811,
+          47.21131593737971
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 104,
+      "city": "Tacoma city, Washington",
+      "population2024": 228202
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Long Beach",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Aquarium of the Pacific | the port | the San Diego freeway | Shoreline Park | Alamitos Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1580438658196,
+          33.78696738589372
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 44,
+      "city": "Long Beach city, California",
+      "population2024": 450901
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Carlsbad",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "the caverns | Juicy Peach Espresso | Milton's Brewing | Red Chimney Pit Bar-B-Q | Yellow Brix Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.22829980651903,
+          32.42056500144815
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 277,
+      "city": "Carlsbad city, California",
+      "population2024": 113575
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Provo",
+        "adm1name": "Utah",
+        "note": null,
+        "POI": "Provo River Parkway | Peaks Ice Arena | the BYU Creamery on Ninth | Street Tacos Don Joaquin | The Shops at Riverwoods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6377700213925,
+          40.24889853826335
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 266,
+      "city": "Provo city, Utah",
+      "population2024": 115479
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Little Rock",
+        "adm1name": "Arkansas",
+        "note": null,
+        "POI": "Outlets of Little Rock | Promenade at Chenal | Midtowne Shopping Center | the Little Rock Zoo | the state capitol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.33109318212252,
+          34.73608257958256
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 121,
+      "city": "Little Rock city, Arkansas",
+      "population2024": 204774
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Wichita",
+        "adm1name": "Kansas",
+        "note": null,
+        "POI": "the Botanica | Intrust Bank Arena | Sedgwick County Zoo | downtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32998702166077,
+          37.71998313297979
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 52,
+      "city": "Wichita city, Kansas",
+      "population2024": 400991
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lafayette",
+        "adm1name": "Louisiana",
+        "note": 5,
+        "POI": "Billys Boudin and Cracklin | Kart Ranch | Buffet City Lafayette | Girard Park | Lagneaux's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.01994938329318,
+          30.199977029434194
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 242,
+      "city": "Lafayette city, Louisiana",
+      "population2024": 122280
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Odessa",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Market Street | Music City Mall | Dos Amigos | Zavala Elementary | Rosa's Cafe and Tortilla Factory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3672247739596,
+          31.845561339336598
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 250,
+      "city": "Odessa city, Texas",
+      "population2024": 119748
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Waco",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Grace Gospel Campground | Central Texas Marketplace | Magnolia Market | Rosa's Cafe | the bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.14638065772766,
+          31.54917116192655
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 191,
+      "city": "Waco city, Texas",
+      "population2024": 146608
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lubbock",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Costco | Cagle Steaks | Stripes | Food King | the Stars & Stripes Drive-In Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.87996769387951,
+          33.580003274564774
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 84,
+      "city": "Lubbock city, Texas",
+      "population2024": 272086
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Hartford",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "Hartford's North End | Aqui Me Quedo | Parkville Market | Dunkin' Park | Jahm Ske's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68191294202404,
+          41.771966019603724
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 243,
+      "city": "Hartford city, Connecticut",
+      "population2024": 122129
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Providence",
+        "adm1name": "Rhode Island",
+        "note": null,
+        "POI": "Roger Williams Park | Brown University | RISD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4169255559512,
+          41.82304817292436
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 134,
+      "city": "Providence city, Rhode Island",
+      "population2024": 194706
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Birmingham",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "The Summit | UAB Hospital | Vulcan Park | Full Moon BBQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.82499515963957,
+          33.53000632632251
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 132,
+      "city": "Birmingham city, Alabama",
+      "population2024": 196357
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Mobile",
+        "adm1name": "Alabama",
+        "note": 5,
+        "POI": "The Shoppes at Bel Air | Providence Hospital | Hart's Fried Chicken | Medal of Honor Park | Greater Gulf State Fairgrounds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.04998498711842,
+          30.68002524720947
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 126,
+      "city": "Mobile city, Alabama",
+      "population2024": 201367
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Petersburg",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Sawgrass Lake County Park | Vinoy Park | North Shore Park | Carmelita's Mexican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.67938257010474,
+          27.770538756312476
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 85,
+      "city": "St. Petersburg city, Florida",
+      "population2024": 267102
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "Ritz's Lil' Fryer | Cozy Dog Drive In | Humphrey's Market | Star 66 Cafe | Long Bridge Golf Course"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.65001652195548,
+          39.820009988457
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 279,
+      "city": "Springfield city, Illinois",
+      "population2024": 112949
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Greensboro",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "the university | downtown | Kernersville | the Friendly Center | K&W Cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.80002343923383,
+          36.07000632633259
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 69,
+      "city": "Greensboro city, North Carolina",
+      "population2024": 307381
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Dayton",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "George's Family Restaurant | National Museum of the US Air Force | Dayton Children's Hospital | Eastwood MetroPark & Lake | Marion's Piazza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20193328712207,
+          39.75232185455661
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 214,
+      "city": "Dayton city, Ohio",
+      "population2024": 136346
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Virginia Beach",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "Landstown Commons Shopping Center | Red Mill Commons | Mount Trashmore Park | Virginia Aquarium & Marine Science Center | Kempsville Rec Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.98026458591744,
+          36.855160192761275
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 43,
+      "city": "Virginia Beach city, Virginia",
+      "population2024": 454808
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Madison",
+        "adm1name": "Wisconsin",
+        "note": null,
+        "POI": "the University of Wisconsin campus | the State Capitol | the Willy Street Cooperative | State Street | the Isthmus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.40111698582177,
+          43.07301556301434
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 77,
+      "city": "Madison city, Wisconsin",
+      "population2024": 285300
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lansing",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "Eastwood Towne Center | Hawk Island County Park | Westgate Tavern | Flap Jack Restaurant | Twisters Ice Cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.54673628918766,
+          42.73352724107275
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 273,
+      "city": "Lansing city, Michigan",
+      "population2024": 114336
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Clara",
+        "adm1name": "Villa Clara",
+        "note": null,
+        "POI": "Monumento a la Toma del Tren Blindado | the Che Guevara Mausoleum | Parque Vidal | Casona Guevara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96665409515902,
+          22.400013853947257
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 220,
+      "city": "Santa Clara city, California",
+      "population2024": 133132
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Bakersfield",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Mercado Latino | Hart Park | Vallarta Supermarkets | Mariscos Las Islitas | Cope's Knotty Pine Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.01998091823191,
+          35.36997153629068
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 47,
+      "city": "Bakersfield city, California",
+      "population2024": 417468
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakland",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Oakland Zoo | Jack London Square | 12th and Broadway | Lake Merritt | Oracle Arena | downtown | the hills"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.22110335476816,
+          37.76892071436032
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 45,
+      "city": "Oakland city, California",
+      "population2024": 443554
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Costco | Carbonara Food Truck | George Lane Park | Superior Grocers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13582299993413,
+          34.698048725415674
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 160,
+      "city": "Lancaster city, California",
+      "population2024": 167426
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Salinas",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Northridge Mall | Food Co | El Charrito | El Super | Alvarado Street Brewery and Tasting Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.64165551947929,
+          36.68221701969446
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 165,
+      "city": "Salinas city, California",
+      "population2024": 160783
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Eugene",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "Costco | the McDonald Theatre | Jerry's Home Improvement | the Fern Ridge Bike Path"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.10001611518834,
+          44.0500101919244
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 150,
+      "city": "Eugene city, Oregon",
+      "population2024": 178786
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Cedar Rapids",
+        "adm1name": "Iowa",
+        "note": null,
+        "POI": "the Cedar Rapids Public Library | Fareway | Noelridge Park | Tic Toc | Theisen's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.66002303238031,
+          41.9699821157443
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 208,
+      "city": "Cedar Rapids city, Iowa",
+      "population2024": 137904
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "James River Church | Wonders of Wildlife | Hyvee Liquor | Neighborhood Pizza Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.31999922867601,
+          37.180016091962045
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 279,
+      "city": "Springfield city, Illinois",
+      "population2024": 112949
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Lincoln",
+        "adm1name": "Nebraska",
+        "note": null,
+        "POI": "the University of Nebraska | SouthPointe Pavilions | Gateway Mall | Haymarket | Hy Vee Wine & Spirits | Shoemakers Truckers Dining | Memorial Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.68000085629359,
+          40.81997479152096
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 72,
+      "city": "Lincoln city, Nebraska",
+      "population2024": 300619
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria",
+        "adm1name": "Louisiana",
+        "note": null,
+        "POI": "Outlaw's Barbecue | Walk-On's Sports Bistreaux | Mac's Fresh Market | Hokus Pokus Liquor | The Grand Theatre 16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.44501387710994,
+          31.311097838357796
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 168,
+      "city": "Alexandria city, Virginia",
+      "population2024": 159102
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Abilene",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Market Street | Mall of Abilene | Lytle Land & Cattle Co. | Rosa's Cafe | Dixie Pig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.732786093936,
+          32.44862530418271
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 223,
+      "city": "Abilene city, Texas",
+      "population2024": 130501
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Brownsville",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "Brownsville Sports Park | the SpaceX launch site | Bigo's Bar & Grill | Galaxy Bowling Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50000248390103,
+          25.91997987772436
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 136,
+      "city": "Brownsville city, Texas",
+      "population2024": 191967
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Concord",
+        "adm1name": "New Hampshire",
+        "note": null,
+        "POI": "Makris Lobster & Steak House | White Park | Memorial Building | Windmill Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.53804712084138,
+          43.20807191880908
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 236,
+      "city": "Concord city, California",
+      "population2024": 124016
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Huntsville",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "Bridge Street Town Centre | the U.S. Space and Rocket Center | Shaggy's Burgers and Tacos | Campus 805 | El Olmeca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.60999536308924,
+          34.71995953270738
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 102,
+      "city": "Huntsville city, Alabama",
+      "population2024": 230402
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "West Palm Beach",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Village Commons | Rosemary Square | Elisabetta's Ristorante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.12362125824558,
+          26.745019957480224
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 228,
+      "city": "West Palm Beach city, Florida",
+      "population2024": 127744
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Gainesville",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Butler Plaza | Celebration Pointe | Spurrier’s Restaurant | 43rd Street Deli & Breakfast House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.32503727387933,
+          29.651380024223556
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 187,
+      "city": "Gainesville city, Florida",
+      "population2024": 148720
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Charleston",
+        "adm1name": "South Carolina",
+        "note": 4,
+        "POI": "Ashley Landing | 82 Queen | Charleston City Market | Magnolia Plantation & Gardens | Rainbow Row"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99210473806278,
+          32.79237693178834
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 171,
+      "city": "Charleston city, South Carolina",
+      "population2024": 157665
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Peoria",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "Glen Hollow Shopping Center | The Shoppes At Grand Prairie | Carver Arena | Methodist Medical Center of Illinois | the Peoria Civic Center Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.67004113946871,
+          40.69998211573909
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 129,
+      "city": "Peoria city, Arizona",
+      "population2024": 199924
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Evansville",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Ford Center | Donut Bank Bakery & Coffee Shop | Crazy Buffet Chinese Restaurant | Kipplee's | Showplace East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.55582910332737,
+          37.97469626774648
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 267,
+      "city": "Evansville city, Indiana",
+      "population2024": 115395
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Charlotte",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Bank of America Stadium | the NASCAR Hall of Fame | Freedom Park | the light rail | uptown | Camp North End | NoDa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.83198394628829,
+          35.2069403848119
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 14,
+      "city": "Charlotte city, North Carolina",
+      "population2024": 943476
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Toledo",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Franklin Park Mall | St. John's Jesuit High School | the GM plant | the waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57997359387139,
+          41.67002626450608
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 86,
+      "city": "Toledo city, Ohio",
+      "population2024": 265638
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbus",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Nationwide Arena | German Village | the Short North | Scioto Mile | the statehouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.99195546322409,
+          39.9819202432293
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 124,
+      "city": "Columbus city, Georgia",
+      "population2024": 201830
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Chattanooga",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "McKay Used Books & CDs | the Tennessee Aquarium | Coolidge Park | Food City | Chickamauga Dam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.25000085624788,
+          35.06998984683645
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 137,
+      "city": "Chattanooga city, Tennessee",
+      "population2024": 191496
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland",
+        "adm1name": "Maine",
+        "note": null,
+        "POI": "The Great Lost Bear | Portland Food Co-op | Deering Oaks Park | Portland Public Library | Becky's Diner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.24552739927043,
+          43.672161575598466
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 28,
+      "city": "Portland city, Oregon",
+      "population2024": 635749
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Prairie",
+        "adm1name": "Alberta",
+        "note": null,
+        "POI": "Avenue Eatery and Cafe | Cedars Bakery | Borealis Pet Centre | Benjamin Moore | Fort McMurray Animal Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.79999434596539,
+          55.1666443065522
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 118,
+      "city": "Grand Prairie city, Texas",
+      "population2024": 207331
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "San Bernardino",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "San Manuel Casino | Glen Helen Regional Park | Tutu’s Food Court | St. Bernardine Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.30198008087439,
+          34.1223295856538
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 107,
+      "city": "San Bernardino city, California",
+      "population2024": 224775
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgeport",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "St. Vincent's Medical Center | Food Bazaar | Seaside Park | Macron Store | Duchess"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.20190704196108,
+          41.1819245156953
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 180,
+      "city": "Bridgeport city, Connecticut",
+      "population2024": 151599
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochester",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the High Falls | Eastman Theatre | Highland Park | the Public Market | Mount Hope Cemetery | the Strong Museum of Play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.62189564874956,
+          43.17237149649736
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 237,
+      "city": "Rochester city, Minnesota",
+      "population2024": 123624
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Paul",
+        "adm1name": "Minnesota",
+        "note": null,
+        "POI": "Xcel Energy Center | the State Capitol | Grand Avenue | Summit Hill | Como Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.08497481461256,
+          44.943986632357735
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 68,
+      "city": "St. Paul city, Minnesota",
+      "population2024": 307465
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Billings",
+        "adm1name": "Montana",
+        "note": null,
+        "POI": "Rimrock Mall | MetraPark | Billings Studio Theatre Inc | Billings Clinic Hospital | Manny's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.54000044943984,
+          45.78830202135839
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 247,
+      "city": "Billings city, Montana",
+      "population2024": 121483
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fargo",
+        "adm1name": "North Dakota",
+        "note": null,
+        "POI": "West Acres Mall | Sanford Medical Center | Essentia Health | Food Court | The Shack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.78942570167163,
+          46.87722780261288
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 215,
+      "city": "Fargo city, North Dakota",
+      "population2024": 136285
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Spokane",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "River Park Square | Yoke's Fresh Market | Spokane Veterans Memorial Arena | Dwight Merkel Sports Complex | Riverfront Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.41994938339474,
+          47.66999595040238
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 101,
+      "city": "Spokane city, Washington",
+      "population2024": 230609
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Vancouver",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Tola Angkor Market | the Vancouver Clinic | Vancouver Farmers Market | Frontier Public House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63999251492606,
+          45.63030132962615
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 130,
+      "city": "Vancouver city, Washington",
+      "population2024": 198992
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tucson",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "the Sonoran Desert | the university | Saguaro National Park | downtown | the mountains | Spectrum Mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.89193206652578,
+          32.20694262275566
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 33,
+      "city": "Tucson city, Arizona",
+      "population2024": 554013
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Fresno",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Tower District | Forestiere Underground Gardens | the fairgrounds | Woodward Park | downtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.77298405137293,
+          36.74771689762446
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 34,
+      "city": "Fresno city, California",
+      "population2024": 550105
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Colorado Springs",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "Garden of the Gods | In-N-Out Burger | the Cheyenne Mountain Zoo | Garden of the Gods Trading Post | Bubba's 33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79198632995883,
+          38.86296246241153
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 40,
+      "city": "Colorado Springs city, Colorado",
+      "population2024": 493554
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Reno",
+        "adm1name": "Nevada",
+        "note": null,
+        "POI": "Idlewild Park | the Grand Sierra Grand Theatre | Shayden Summit | Hometown Cafe | Reno-Sparks Livestock Events Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.82000960475847,
+          39.52997601221881
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 78,
+      "city": "Reno city, Nevada",
+      "population2024": 281714
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Albuquerque",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "North Domingo Baca Park | Tin Can Alley ABQ | Frontier | Taqueria El Paisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64133081238799,
+          35.10497479149802
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 32,
+      "city": "Albuquerque city, New Mexico",
+      "population2024": 560326
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "The Yard Food Park | Keizer Station | CFC Futbol Club | Plaid Pantry | Salem Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0238967304224,
+          44.928070291211725
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 148,
+      "city": "Salem city, Oregon",
+      "population2024": 180406
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Topeka",
+        "adm1name": "Kansas",
+        "note": null,
+        "POI": "Lake Shawnee | the Topeka & Shawnee County Public Library | the Combat Air Museum | banjo's cafe | The Wheel Barrel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6699849871489,
+          39.05000530909189
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 232,
+      "city": "Topeka city, Kansas",
+      "population2024": 125467
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Kansas City",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "Zona Rosa | Kauffman Stadium | City Market | GEHA Field at Arrowhead Stadium | the Kansas City Zoo & Aquarium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6060400775458,
+          39.10903436839749
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 175,
+      "city": "Kansas City city, Kansas",
+      "population2024": 156752
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tulsa",
+        "adm1name": "Oklahoma",
+        "note": null,
+        "POI": "The Gathering Place | Golden Driller | BOK Center | Tandy Family YMCA | Utica Square Shopping Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.93002079444159,
+          36.120003274575026
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 48,
+      "city": "Tulsa city, Oklahoma",
+      "population2024": 415154
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Sioux Falls",
+        "adm1name": "South Dakota",
+        "note": null,
+        "POI": "Western Mall | Shoppes at Dawley Farm | Falls Park | Sanford USD Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72999780453597,
+          43.5499890330683
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 117,
+      "city": "Sioux Falls city, South Dakota",
+      "population2024": 209289
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Shreveport",
+        "adm1name": "Louisiana",
+        "note": null,
+        "POI": "Mall St. Vincent | Southern Classic Chicken | Johnny's Catfish & Seafood | Independence Stadium | Bergeron's Boudin & Cajun Meats"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.77002343928973,
+          32.500017516097046
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 153,
+      "city": "Shreveport city, Louisiana",
+      "population2024": 176578
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Baton Rouge",
+        "adm1name": "Louisiana",
+        "note": 5,
+        "POI": "the Baton Rouge Zoo | Hi Nabor | Don Carter's All Star Lanes | Tony's Seafood | Mike Anderson's Seafood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.14015812352397,
+          30.457945779435136
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 108,
+      "city": "Baton Rouge city, Louisiana",
+      "population2024": 220907
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Corpus Christi",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "the harbor bridge | Padre Island | downtown | the naval air station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4018947771948,
+          27.742814350387846
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 63,
+      "city": "Corpus Christi city, Texas",
+      "population2024": 317317
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "6th Street | the Capitol building | Lady Bird Lake | Zilker Park | the Ransom Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74472422142117,
+          30.26889554429738
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 13,
+      "city": "Austin city, Texas",
+      "population2024": 993588
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Amarillo",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Cinergy Amarillo Featuring EPIC | Westgate Mall | United Supermarkets | The Big Texan Steak Ranch | Spicy Mike's Bar-B-Q Haven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.82999658385324,
+          35.229980081212034
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 122,
+      "city": "Amarillo city, Texas",
+      "population2024": 203729
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "El Paso",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Speaking Rock Casino And Entertainment | Union Draft House | Fort Bliss Main Exchange | Vista Central Market | Scenic Drive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.51194101833124,
+          31.78192980537125
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 23,
+      "city": "El Paso city, Texas",
+      "population2024": 681723
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Laredo",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Independence Hills Regional Park | La Laguna | North Central Park | Sames Auto Arena | El Taco Tote"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50721846698184,
+          27.506136290490986
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 87,
+      "city": "Laredo city, Texas",
+      "population2024": 261260
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Montgomery",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "The Shoppes At Eastchase | Eastdale Mall | Wynton Blount Cultural Park | Brenda's Bar-B-Q Inc | Walk-On's Sports Bistreaux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.27918868177272,
+          32.361602192203065
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 133,
+      "city": "Montgomery city, Alabama",
+      "population2024": 195818
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tallahassee",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Costco | Cascades Park | Railroad Square Art Park | The Egg Cafe & Eatery | Palace Saloon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.28003422212942,
+          30.449987608862102
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 120,
+      "city": "Tallahassee city, Florida",
+      "population2024": 205089
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Orlando",
+        "adm1name": "Florida",
+        "note": 2,
+        "POI": "Disney World | Universal Studios | downtown | Lake Eola | the theme parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.38197621517077,
+          28.511922684589933
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 58,
+      "city": "Orlando city, Florida",
+      "population2024": 334854
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Jacksonville",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Jacksonville Beach | the Navy base | the Jacksonville Zoo | William F Sheffield Regional Park | VyStar Veterans Memorial Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.67193267676049,
+          30.331966629909687
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 10,
+      "city": "Jacksonville city, Florida",
+      "population2024": 1009833
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Savannah",
+        "adm1name": "Georgia",
+        "note": 4,
+        "POI": "SCAD | Candler Hospital | Daffin Park | Lake Mayer Park | Leopold's Ice Cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.10999515961657,
+          32.02110617983209
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 185,
+      "city": "Savannah city, Georgia",
+      "population2024": 148808
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "adm1name": "South Carolina",
+        "note": null,
+        "POI": "Shoppes at Woodhill | Publix Deli | the Riverbanks Zoo & Garden | the Richland Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.89998213878243,
+          34.03997519839476
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 222,
+      "city": "Columbia city, Missouri",
+      "population2024": 130900
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilmington",
+        "adm1name": "North Carolina",
+        "note": 4,
+        "POI": "Cook Out | Winnie's Tavern | Halyburton Park | Cardinal Lanes Beach Bowl | Carolina Ale House | the waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.94502038746856,
+          34.22551942853886
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 233,
+      "city": "Wilmington city, North Carolina",
+      "population2024": 125284
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Knoxville",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Kroger | Sunspot | Thompson-Boling Arena | McKay Used Books, CDs, Movies & More | Lakeshore Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.92003035656808,
+          35.97001242984783
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 131,
+      "city": "Knoxville city, Tennessee",
+      "population2024": 198722
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "Willow Lawn | the University of Richmond | the Altria Theater | William Byrd Park | Cook-Out | Movieland At Boulevard Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.45193186294159,
+          37.55196520578477
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 268,
+      "city": "Richmond city, California",
+      "population2024": 115353
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Charleston",
+        "adm1name": "West Virginia",
+        "note": null,
+        "POI": "Kanawha State Forest | China Buffet | Bridgeport Equipment & Tools | Booker T. Washington Memorial | Tudor's Biscuit World"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.63272811046517,
+          38.3497379751048
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 171,
+      "city": "Charleston city, South Carolina",
+      "population2024": 157665
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Baltimore",
+        "adm1name": "Maryland",
+        "note": 4,
+        "POI": "Fort McHenry | the Inner Harbor | Camden Yards | Federal Hill | Fell's Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62193084568548,
+          39.30193590891673
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 30,
+      "city": "Baltimore city, Maryland",
+      "population2024": 568271
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Syracuse",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the Carrier Dome | Armory Square | Clinton Square | Syracuse University | Onondaga Lake Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.15001367359423,
+          43.04999371242826
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 193,
+      "city": "Syracuse city, New York",
+      "population2024": 146097
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "San Jose",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Tech Museum | the Winchester Mystery House | Santana Row | the airport | a bland Silicon Valley office park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.851934914877,
+          37.30192878814046
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 12,
+      "city": "San Jose city, California",
+      "population2024": 997368
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Sacramento",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the State Capitol | Old Sacramento | the river | Tower Bridge | midtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47198394645096,
+          38.57696724029415
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 35,
+      "city": "Sacramento city, California",
+      "population2024": 535798
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Vegas",
+        "adm1name": "Nevada",
+        "note": null,
+        "POI": "the Strip | Fremont Street | the Bellagio fountains | Red Rock Canyon | Caesars Palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.22195200469417,
+          36.21194364002429
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 24,
+      "city": "Las Vegas city, Nevada",
+      "population2024": 678922
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "Powell's Books | the waterfront | Forest Park | the Pearl District | food trucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68193593213289,
+          45.521969681728024
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 28,
+      "city": "Portland city, Oregon",
+      "population2024": 635749
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Salt Lake City",
+        "adm1name": "Utah",
+        "note": null,
+        "POI": "the campus | the temple | Delta Center | Liberty Park | Harmons Grocery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.93199778104821,
+          40.77696215404006
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 111,
+      "city": "Salt Lake City city, Utah",
+      "population2024": 217783
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Des Moines",
+        "adm1name": "Iowa",
+        "note": null,
+        "POI": "Wells Fargo Arena | the Blank Park Zoo | Fareway | Flix Brewhouse | Smokey Row Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.61998091813024,
+          41.57998008123735
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 113,
+      "city": "Des Moines city, Iowa",
+      "population2024": 213096
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Omaha",
+        "adm1name": "Nebraska",
+        "note": null,
+        "POI": "the Old Market | Boys Town | the Henry Doorly Zoo | the riverfront | downtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.00999007341329,
+          41.24000083318924
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 41,
+      "city": "Omaha city, Nebraska",
+      "population2024": 489265
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Oklahoma City",
+        "adm1name": "Oklahoma",
+        "note": null,
+        "POI": "the bombing memorial | Bricktown | the stockyards | Lake Hefner | the capitol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52062937278737,
+          35.47198880603685
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 20,
+      "city": "Oklahoma City city, Oklahoma",
+      "population2024": 712919
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "San Antonio",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the River Walk | the Alamo | Market Square | Brackenridge Park | the Pearl District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50925119896328,
+          29.48927904852593
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 7,
+      "city": "San Antonio city, Texas",
+      "population2024": 1526656
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackson",
+        "adm1name": "Mississippi",
+        "note": null,
+        "POI": "Highland Village | Cups @ UMMC | Medgar Evers' Home | Bully's Great Soul Food | The Pig & Pint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.18499678725715,
+          32.29881532696845
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 198,
+      "city": "Jackson city, Mississippi",
+      "population2024": 141449
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Raleigh",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Crabtree Valley Mall | North Hills Shopping Center | Belk | Hunt Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.64469344248448,
+          35.818781350745724
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 39,
+      "city": "Raleigh city, North Carolina",
+      "population2024": 499825
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Cleveland",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Lake Erie | the Flats | the West Side Market | Rocket Arena | Progressive Field | the Rock and Roll Hall of Fame"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69694406998963,
+          41.47193265371732
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 53,
+      "city": "Cleveland city, Ohio",
+      "population2024": 365379
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Cincinnati",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Union Terminal | Fountain Square | Over-the-Rhine | Great American Ball Park | Mount Adams"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45886850847734,
+          39.16383064361685
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 66,
+      "city": "Cincinnati city, Ohio",
+      "population2024": 314915
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Memphis",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Beale Street | Graceland | FedExForum | the Mississippi River | Sun Studio | the Pyramid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.00194101826514,
+          35.12193265369183
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 29,
+      "city": "Memphis city, Tennessee",
+      "population2024": 610919
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Norfolk",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "the Naval Station | downtown | the Botanical Garden | the zoo | the waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.28000573902449,
+          36.84995871891391
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 100,
+      "city": "Norfolk city, Virginia",
+      "population2024": 231105
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Milwaukee",
+        "adm1name": "Wisconsin",
+        "note": null,
+        "POI": "the lakefront | Lambeau Field | the brewery district | the Riverwalk | the Summerfest grounds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.92191294208499,
+          43.05460090730418
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 31,
+      "city": "Milwaukee city, Wisconsin",
+      "population2024": 563531
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Buffalo",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the Elmwood Village | Canalside | a Frank Lloyd Wright house | the Central Terminal | Delaware Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88194793553828,
+          42.88192410880083
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 82,
+      "city": "Buffalo city, New York",
+      "population2024": 276617
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Pittsburgh",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "Dancing Gnome | PPG Paints Arena | Market Square | the Warhol Museum | The Warren Bar & Burrow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.00193125260023,
+          40.43194445384313
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 67,
+      "city": "Pittsburgh city, Pennsylvania",
+      "population2024": 307668
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Minneapolis",
+        "adm1name": "Minnesota",
+        "note": null,
+        "POI": "Target Field | U.S. Bank Stadium | the Skyway | the Walker Art Center | downtown | the U of M campus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.25373219666352,
+          44.98192512606187
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 46,
+      "city": "Minneapolis city, Minnesota",
+      "population2024": 428579
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Seattle",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Pike Place Market | the Space Needle | Elliott Bay | Capitol Hill | the ferry terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34193084586849,
+          47.57194791253073
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 18,
+      "city": "Seattle city, Washington",
+      "population2024": 780995
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenix",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "Camelback Mountain | Sky Harbor | Chase Field | Papago Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07193755969467,
+          33.5419257363676
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 5,
+      "city": "Phoenix city, Arizona",
+      "population2024": 1673164
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "San Diego",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Balboa Park | the harbor | Coronado Beach | the zoo | Mission Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18193572866028,
+          32.82196968167733
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 8,
+      "city": "San Diego city, California",
+      "population2024": 1404452
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Louis",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "the Gateway Arch | Forest Park | the Central West End | Busch Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2419263698286,
+          38.636963578185146
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 80,
+      "city": "St. Louis city, Missouri",
+      "population2024": 279695
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "New Orleans",
+        "adm1name": "Louisiana",
+        "note": 5,
+        "POI": "the French Quarter | the levees | the streetcar lines | the Garden District | Bourbon Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04191273864285,
+          29.99694831936148
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 54,
+      "city": "New Orleans city, Louisiana",
+      "population2024": 362701
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Dallas",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Dealey Plaza | the skyline | Fair Park | White Rock Lake | Deep Ellum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84196278749818,
+          32.82196968167733
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 9,
+      "city": "Dallas city, Texas",
+      "population2024": 1326087
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Fenway Park | the Harbor | Harvard Square | the Freedom Trail | Beacon Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07195953218684,
+          42.33190600170229
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 25,
+      "city": "Boston city, Massachusetts",
+      "population2024": 673458
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Tampa",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Amalie Arena | George M Steinbrenner Field | Ybor City | downtown | MacDill Air Force Base | the riverwalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.46056670996677,
+          27.94893379298594
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 49,
+      "city": "Tampa city, Florida",
+      "population2024": 414547
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "Independence Hall | the Liberty Bell | South Street | Rittenhouse Square | the Art Museum steps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17194183200792,
+          40.001919022526465
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 6,
+      "city": "Philadelphia city, Pennsylvania",
+      "population2024": 1573916
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Detroit",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "Little Caesars Arena | Comerica Park | Ford Field | Belle Isle Park | Eastern Market | the GM plant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0820016464927,
+          42.33190600170229
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 26,
+      "city": "Detroit city, Michigan",
+      "population2024": 645705
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Golden Gate Park | Ferry Building Marketplace | Oracle Park | Pier 39 | Chase Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41716877355225,
+          37.76919562968743
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 17,
+      "city": "San Francisco city, California",
+      "population2024": 827526
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "the 16th Street Mall | Red Rocks | the Denver Art Museum | Coors Field | the bus station | the Denver Zoo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9859618109682,
+          39.7411339069655
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 19,
+      "city": "Denver city, Colorado",
+      "population2024": 729019
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "the Astrodome | the downtown tunnels | the Ship Channel | NASA Johnson Space Center | Memorial Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.341925149146,
+          29.821920243188856
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 4,
+      "city": "Houston city, Texas",
+      "population2024": 2390125
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Miami",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "South Beach | Biscayne Bay | the Art Deco District | Little Havana | Calle Ocho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.22605193945003,
+          25.789556555021534
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 42,
+      "city": "Miami city, Florida",
+      "population2024": 487014
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlanta",
+        "adm1name": "Georgia",
+        "note": null,
+        "POI": "Mercedes-Benz Stadium | Peachtree Street | the Beltline | Piedmont Park | the CDC | the airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40189524187565,
+          33.83195971260585
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 36,
+      "city": "Atlanta city, Georgia",
+      "population2024": 520070
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "the L tracks | the Navy Pier | Millennium Park | the lakefront | Wrigley Field"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.75200083270931,
+          41.83193651927843
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 3,
+      "city": "Chicago city, Illinois",
+      "population2024": 2721308
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Vancouver",
+        "adm1name": "British Columbia",
+        "note": null,
+        "POI": "Kitsilano Beach | Pacific Spirit Regional Park | Stanley Park | Queen Elizabeth Park | Stanley Park English Bay Seawall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1235900763943,
+          49.27536244271175
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 130,
+      "city": "Vancouver city, Washington",
+      "population2024": 198992
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Hollywood sign | Sunset Boulevard | LACMA | the Getty | the Huntington | the La Brea Tar Pits | Venice Beach | the Walk of Fame | Crypto.com Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18192636994041,
+          33.99192410876543
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 2,
+      "city": "Los Angeles city, California",
+      "population2024": 3878704
+    }
+  },
+  {
+    "location": {
+      "type": "Feature",
+      "properties": {
+        "name": "New York",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the Brooklyn Bridge | Times Square | Central Park | the subway tunnels | Wall Street | the 9/11 Memorial North Pool | MOMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98196278740681,
+          40.75192492259464
+        ]
+      }
+    },
+    "populationData": {
+      "rank": 1,
+      "city": "New York city, New York",
+      "population2024": 8478072
+    }
+  }
+]

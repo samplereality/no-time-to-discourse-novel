@@ -1,0 +1,1412 @@
+[
+  {
+    "rank": 1,
+    "city": "New York city, New York",
+    "population2024": 8478072
+  },
+  {
+    "rank": 2,
+    "city": "Los Angeles city, California",
+    "population2024": 3878704
+  },
+  {
+    "rank": 3,
+    "city": "Chicago city, Illinois",
+    "population2024": 2721308
+  },
+  {
+    "rank": 4,
+    "city": "Houston city, Texas",
+    "population2024": 2390125
+  },
+  {
+    "rank": 5,
+    "city": "Phoenix city, Arizona",
+    "population2024": 1673164
+  },
+  {
+    "rank": 6,
+    "city": "Philadelphia city, Pennsylvania",
+    "population2024": 1573916
+  },
+  {
+    "rank": 7,
+    "city": "San Antonio city, Texas",
+    "population2024": 1526656
+  },
+  {
+    "rank": 8,
+    "city": "San Diego city, California",
+    "population2024": 1404452
+  },
+  {
+    "rank": 9,
+    "city": "Dallas city, Texas",
+    "population2024": 1326087
+  },
+  {
+    "rank": 10,
+    "city": "Jacksonville city, Florida",
+    "population2024": 1009833
+  },
+  {
+    "rank": 11,
+    "city": "Fort Worth city, Texas",
+    "population2024": 1008106
+  },
+  {
+    "rank": 12,
+    "city": "San Jose city, California",
+    "population2024": 997368
+  },
+  {
+    "rank": 13,
+    "city": "Austin city, Texas",
+    "population2024": 993588
+  },
+  {
+    "rank": 14,
+    "city": "Charlotte city, North Carolina",
+    "population2024": 943476
+  },
+  {
+    "rank": 15,
+    "city": "Columbus city, Ohio",
+    "population2024": 933263
+  },
+  {
+    "rank": 16,
+    "city": "Indianapolis city (balance), Indiana",
+    "population2024": 891484
+  },
+  {
+    "rank": 17,
+    "city": "San Francisco city, California",
+    "population2024": 827526
+  },
+  {
+    "rank": 18,
+    "city": "Seattle city, Washington",
+    "population2024": 780995
+  },
+  {
+    "rank": 19,
+    "city": "Denver city, Colorado",
+    "population2024": 729019
+  },
+  {
+    "rank": 20,
+    "city": "Oklahoma City city, Oklahoma",
+    "population2024": 712919
+  },
+  {
+    "rank": 21,
+    "city": "Nashville-Davidson metropolitan government (balance), Tennessee",
+    "population2024": 704963
+  },
+  {
+    "rank": 22,
+    "city": "Washington city, District of Columbia",
+    "population2024": 702250
+  },
+  {
+    "rank": 23,
+    "city": "El Paso city, Texas",
+    "population2024": 681723
+  },
+  {
+    "rank": 24,
+    "city": "Las Vegas city, Nevada",
+    "population2024": 678922
+  },
+  {
+    "rank": 25,
+    "city": "Boston city, Massachusetts",
+    "population2024": 673458
+  },
+  {
+    "rank": 26,
+    "city": "Detroit city, Michigan",
+    "population2024": 645705
+  },
+  {
+    "rank": 27,
+    "city": "Louisville/Jefferson County metro government (balance), Kentucky",
+    "population2024": 640796
+  },
+  {
+    "rank": 28,
+    "city": "Portland city, Oregon",
+    "population2024": 635749
+  },
+  {
+    "rank": 29,
+    "city": "Memphis city, Tennessee",
+    "population2024": 610919
+  },
+  {
+    "rank": 30,
+    "city": "Baltimore city, Maryland",
+    "population2024": 568271
+  },
+  {
+    "rank": 31,
+    "city": "Milwaukee city, Wisconsin",
+    "population2024": 563531
+  },
+  {
+    "rank": 32,
+    "city": "Albuquerque city, New Mexico",
+    "population2024": 560326
+  },
+  {
+    "rank": 33,
+    "city": "Tucson city, Arizona",
+    "population2024": 554013
+  },
+  {
+    "rank": 34,
+    "city": "Fresno city, California",
+    "population2024": 550105
+  },
+  {
+    "rank": 35,
+    "city": "Sacramento city, California",
+    "population2024": 535798
+  },
+  {
+    "rank": 36,
+    "city": "Atlanta city, Georgia",
+    "population2024": 520070
+  },
+  {
+    "rank": 37,
+    "city": "Mesa city, Arizona",
+    "population2024": 517151
+  },
+  {
+    "rank": 38,
+    "city": "Kansas City city, Missouri",
+    "population2024": 516032
+  },
+  {
+    "rank": 39,
+    "city": "Raleigh city, North Carolina",
+    "population2024": 499825
+  },
+  {
+    "rank": 40,
+    "city": "Colorado Springs city, Colorado",
+    "population2024": 493554
+  },
+  {
+    "rank": 41,
+    "city": "Omaha city, Nebraska",
+    "population2024": 489265
+  },
+  {
+    "rank": 42,
+    "city": "Miami city, Florida",
+    "population2024": 487014
+  },
+  {
+    "rank": 43,
+    "city": "Virginia Beach city, Virginia",
+    "population2024": 454808
+  },
+  {
+    "rank": 44,
+    "city": "Long Beach city, California",
+    "population2024": 450901
+  },
+  {
+    "rank": 45,
+    "city": "Oakland city, California",
+    "population2024": 443554
+  },
+  {
+    "rank": 46,
+    "city": "Minneapolis city, Minnesota",
+    "population2024": 428579
+  },
+  {
+    "rank": 47,
+    "city": "Bakersfield city, California",
+    "population2024": 417468
+  },
+  {
+    "rank": 48,
+    "city": "Tulsa city, Oklahoma",
+    "population2024": 415154
+  },
+  {
+    "rank": 49,
+    "city": "Tampa city, Florida",
+    "population2024": 414547
+  },
+  {
+    "rank": 50,
+    "city": "Arlington city, Texas",
+    "population2024": 403672
+  },
+  {
+    "rank": 51,
+    "city": "Aurora city, Colorado",
+    "population2024": 403130
+  },
+  {
+    "rank": 52,
+    "city": "Wichita city, Kansas",
+    "population2024": 400991
+  },
+  {
+    "rank": 53,
+    "city": "Cleveland city, Ohio",
+    "population2024": 365379
+  },
+  {
+    "rank": 54,
+    "city": "New Orleans city, Louisiana",
+    "population2024": 362701
+  },
+  {
+    "rank": 55,
+    "city": "Henderson city, Nevada",
+    "population2024": 350039
+  },
+  {
+    "rank": 56,
+    "city": "Urban Honolulu CDP, Hawaii",
+    "population2024": 344967
+  },
+  {
+    "rank": 57,
+    "city": "Anaheim city, California",
+    "population2024": 344561
+  },
+  {
+    "rank": 58,
+    "city": "Orlando city, Florida",
+    "population2024": 334854
+  },
+  {
+    "rank": 59,
+    "city": "Lexington-Fayette urban county, Kentucky",
+    "population2024": 329437
+  },
+  {
+    "rank": 60,
+    "city": "Stockton city, California",
+    "population2024": 324975
+  },
+  {
+    "rank": 61,
+    "city": "Riverside city, California",
+    "population2024": 323757
+  },
+  {
+    "rank": 62,
+    "city": "Irvine city, California",
+    "population2024": 318683
+  },
+  {
+    "rank": 63,
+    "city": "Corpus Christi city, Texas",
+    "population2024": 317317
+  },
+  {
+    "rank": 64,
+    "city": "Newark city, New Jersey",
+    "population2024": 317303
+  },
+  {
+    "rank": 65,
+    "city": "Santa Ana city, California",
+    "population2024": 316184
+  },
+  {
+    "rank": 66,
+    "city": "Cincinnati city, Ohio",
+    "population2024": 314915
+  },
+  {
+    "rank": 67,
+    "city": "Pittsburgh city, Pennsylvania",
+    "population2024": 307668
+  },
+  {
+    "rank": 68,
+    "city": "St. Paul city, Minnesota",
+    "population2024": 307465
+  },
+  {
+    "rank": 69,
+    "city": "Greensboro city, North Carolina",
+    "population2024": 307381
+  },
+  {
+    "rank": 70,
+    "city": "Jersey City city, New Jersey",
+    "population2024": 302824
+  },
+  {
+    "rank": 71,
+    "city": "Durham city, North Carolina",
+    "population2024": 301870
+  },
+  {
+    "rank": 72,
+    "city": "Lincoln city, Nebraska",
+    "population2024": 300619
+  },
+  {
+    "rank": 73,
+    "city": "North Las Vegas city, Nevada",
+    "population2024": 294034
+  },
+  {
+    "rank": 74,
+    "city": "Plano city, Texas",
+    "population2024": 293286
+  },
+  {
+    "rank": 75,
+    "city": "Anchorage municipality, Alaska",
+    "population2024": 289600
+  },
+  {
+    "rank": 76,
+    "city": "Gilbert town, Arizona",
+    "population2024": 288790
+  },
+  {
+    "rank": 77,
+    "city": "Madison city, Wisconsin",
+    "population2024": 285300
+  },
+  {
+    "rank": 78,
+    "city": "Reno city, Nevada",
+    "population2024": 281714
+  },
+  {
+    "rank": 79,
+    "city": "Chandler city, Arizona",
+    "population2024": 281231
+  },
+  {
+    "rank": 80,
+    "city": "St. Louis city, Missouri",
+    "population2024": 279695
+  },
+  {
+    "rank": 81,
+    "city": "Chula Vista city, California",
+    "population2024": 278546
+  },
+  {
+    "rank": 82,
+    "city": "Buffalo city, New York",
+    "population2024": 276617
+  },
+  {
+    "rank": 83,
+    "city": "Fort Wayne city, Indiana",
+    "population2024": 273203
+  },
+  {
+    "rank": 84,
+    "city": "Lubbock city, Texas",
+    "population2024": 272086
+  },
+  {
+    "rank": 85,
+    "city": "St. Petersburg city, Florida",
+    "population2024": 267102
+  },
+  {
+    "rank": 86,
+    "city": "Toledo city, Ohio",
+    "population2024": 265638
+  },
+  {
+    "rank": 87,
+    "city": "Laredo city, Texas",
+    "population2024": 261260
+  },
+  {
+    "rank": 88,
+    "city": "Port St. Lucie city, Florida",
+    "population2024": 258575
+  },
+  {
+    "rank": 89,
+    "city": "Glendale city, Arizona",
+    "population2024": 258143
+  },
+  {
+    "rank": 90,
+    "city": "Irving city, Texas",
+    "population2024": 258060
+  },
+  {
+    "rank": 91,
+    "city": "Winston-Salem city, North Carolina",
+    "population2024": 255769
+  },
+  {
+    "rank": 92,
+    "city": "Chesapeake city, Virginia",
+    "population2024": 254997
+  },
+  {
+    "rank": 93,
+    "city": "Garland city, Texas",
+    "population2024": 250431
+  },
+  {
+    "rank": 94,
+    "city": "Scottsdale city, Arizona",
+    "population2024": 246170
+  },
+  {
+    "rank": 95,
+    "city": "Boise City city, Idaho",
+    "population2024": 237963
+  },
+  {
+    "rank": 96,
+    "city": "Hialeah city, Florida",
+    "population2024": 235388
+  },
+  {
+    "rank": 97,
+    "city": "Frisco city, Texas",
+    "population2024": 235208
+  },
+  {
+    "rank": 98,
+    "city": "Richmond city, Virginia",
+    "population2024": 233655
+  },
+  {
+    "rank": 99,
+    "city": "Cape Coral city, Florida",
+    "population2024": 233025
+  },
+  {
+    "rank": 100,
+    "city": "Norfolk city, Virginia",
+    "population2024": 231105
+  },
+  {
+    "rank": 101,
+    "city": "Spokane city, Washington",
+    "population2024": 230609
+  },
+  {
+    "rank": 102,
+    "city": "Huntsville city, Alabama",
+    "population2024": 230402
+  },
+  {
+    "rank": 103,
+    "city": "Santa Clarita city, California",
+    "population2024": 229159
+  },
+  {
+    "rank": 104,
+    "city": "Tacoma city, Washington",
+    "population2024": 228202
+  },
+  {
+    "rank": 105,
+    "city": "Fremont city, California",
+    "population2024": 228192
+  },
+  {
+    "rank": 106,
+    "city": "McKinney city, Texas",
+    "population2024": 227526
+  },
+  {
+    "rank": 107,
+    "city": "San Bernardino city, California",
+    "population2024": 224775
+  },
+  {
+    "rank": 108,
+    "city": "Baton Rouge city, Louisiana",
+    "population2024": 220907
+  },
+  {
+    "rank": 109,
+    "city": "Modesto city, California",
+    "population2024": 220592
+  },
+  {
+    "rank": 110,
+    "city": "Fontana city, California",
+    "population2024": 218455
+  },
+  {
+    "rank": 111,
+    "city": "Salt Lake City city, Utah",
+    "population2024": 217783
+  },
+  {
+    "rank": 112,
+    "city": "Moreno Valley city, California",
+    "population2024": 213919
+  },
+  {
+    "rank": 113,
+    "city": "Des Moines city, Iowa",
+    "population2024": 213096
+  },
+  {
+    "rank": 114,
+    "city": "Worcester city, Massachusetts",
+    "population2024": 211286
+  },
+  {
+    "rank": 115,
+    "city": "Yonkers city, New York",
+    "population2024": 211040
+  },
+  {
+    "rank": 116,
+    "city": "Fayetteville city, North Carolina",
+    "population2024": 209496
+  },
+  {
+    "rank": 117,
+    "city": "Sioux Falls city, South Dakota",
+    "population2024": 209289
+  },
+  {
+    "rank": 118,
+    "city": "Grand Prairie city, Texas",
+    "population2024": 207331
+  },
+  {
+    "rank": 119,
+    "city": "Rochester city, New York",
+    "population2024": 207282
+  },
+  {
+    "rank": 120,
+    "city": "Tallahassee city, Florida",
+    "population2024": 205089
+  },
+  {
+    "rank": 121,
+    "city": "Little Rock city, Arkansas",
+    "population2024": 204774
+  },
+  {
+    "rank": 122,
+    "city": "Amarillo city, Texas",
+    "population2024": 203729
+  },
+  {
+    "rank": 123,
+    "city": "Overland Park city, Kansas",
+    "population2024": 202893
+  },
+  {
+    "rank": 124,
+    "city": "Columbus city, Georgia",
+    "population2024": 201830
+  },
+  {
+    "rank": 125,
+    "city": "Augusta-Richmond County consolidated government (balance), Georgia",
+    "population2024": 201737
+  },
+  {
+    "rank": 126,
+    "city": "Mobile city, Alabama",
+    "population2024": 201367
+  },
+  {
+    "rank": 127,
+    "city": "Oxnard city, California",
+    "population2024": 200616
+  },
+  {
+    "rank": 128,
+    "city": "Grand Rapids city, Michigan",
+    "population2024": 200117
+  },
+  {
+    "rank": 129,
+    "city": "Peoria city, Arizona",
+    "population2024": 199924
+  },
+  {
+    "rank": 130,
+    "city": "Vancouver city, Washington",
+    "population2024": 198992
+  },
+  {
+    "rank": 131,
+    "city": "Knoxville city, Tennessee",
+    "population2024": 198722
+  },
+  {
+    "rank": 132,
+    "city": "Birmingham city, Alabama",
+    "population2024": 196357
+  },
+  {
+    "rank": 133,
+    "city": "Montgomery city, Alabama",
+    "population2024": 195818
+  },
+  {
+    "rank": 134,
+    "city": "Providence city, Rhode Island",
+    "population2024": 194706
+  },
+  {
+    "rank": 135,
+    "city": "Huntington Beach city, California",
+    "population2024": 193151
+  },
+  {
+    "rank": 136,
+    "city": "Brownsville city, Texas",
+    "population2024": 191967
+  },
+  {
+    "rank": 137,
+    "city": "Chattanooga city, Tennessee",
+    "population2024": 191496
+  },
+  {
+    "rank": 138,
+    "city": "Fort Lauderdale city, Florida",
+    "population2024": 190641
+  },
+  {
+    "rank": 139,
+    "city": "Tempe city, Arizona",
+    "population2024": 190114
+  },
+  {
+    "rank": 140,
+    "city": "Akron city, Ohio",
+    "population2024": 189664
+  },
+  {
+    "rank": 141,
+    "city": "Glendale city, California",
+    "population2024": 187823
+  },
+  {
+    "rank": 142,
+    "city": "Clarksville city, Tennessee",
+    "population2024": 185690
+  },
+  {
+    "rank": 143,
+    "city": "Ontario city, California",
+    "population2024": 185285
+  },
+  {
+    "rank": 144,
+    "city": "Newport News city, Virginia",
+    "population2024": 183056
+  },
+  {
+    "rank": 145,
+    "city": "Elk Grove city, California",
+    "population2024": 182797
+  },
+  {
+    "rank": 146,
+    "city": "Cary town, North Carolina",
+    "population2024": 182659
+  },
+  {
+    "rank": 147,
+    "city": "Aurora city, Illinois",
+    "population2024": 180710
+  },
+  {
+    "rank": 148,
+    "city": "Salem city, Oregon",
+    "population2024": 180406
+  },
+  {
+    "rank": 149,
+    "city": "Pembroke Pines city, Florida",
+    "population2024": 179326
+  },
+  {
+    "rank": 150,
+    "city": "Eugene city, Oregon",
+    "population2024": 178786
+  },
+  {
+    "rank": 151,
+    "city": "Santa Rosa city, California",
+    "population2024": 177524
+  },
+  {
+    "rank": 152,
+    "city": "Rancho Cucamonga city, California",
+    "population2024": 176675
+  },
+  {
+    "rank": 153,
+    "city": "Shreveport city, Louisiana",
+    "population2024": 176578
+  },
+  {
+    "rank": 154,
+    "city": "Garden Grove city, California",
+    "population2024": 172361
+  },
+  {
+    "rank": 155,
+    "city": "Oceanside city, California",
+    "population2024": 170941
+  },
+  {
+    "rank": 156,
+    "city": "Fort Collins city, Colorado",
+    "population2024": 170924
+  },
+  {
+    "rank": 157,
+    "city": "Springfield city, Missouri",
+    "population2024": 170596
+  },
+  {
+    "rank": 158,
+    "city": "Murfreesboro city, Tennessee",
+    "population2024": 168387
+  },
+  {
+    "rank": 159,
+    "city": "Surprise city, Arizona",
+    "population2024": 167564
+  },
+  {
+    "rank": 160,
+    "city": "Lancaster city, California",
+    "population2024": 167426
+  },
+  {
+    "rank": 161,
+    "city": "Denton city, Texas",
+    "population2024": 165998
+  },
+  {
+    "rank": 162,
+    "city": "Roseville city, California",
+    "population2024": 163304
+  },
+  {
+    "rank": 163,
+    "city": "Palmdale city, California",
+    "population2024": 162536
+  },
+  {
+    "rank": 164,
+    "city": "Corona city, California",
+    "population2024": 161540
+  },
+  {
+    "rank": 165,
+    "city": "Salinas city, California",
+    "population2024": 160783
+  },
+  {
+    "rank": 166,
+    "city": "Killeen city, Texas",
+    "population2024": 160616
+  },
+  {
+    "rank": 167,
+    "city": "Paterson city, New Jersey",
+    "population2024": 160463
+  },
+  {
+    "rank": 168,
+    "city": "Alexandria city, Virginia",
+    "population2024": 159102
+  },
+  {
+    "rank": 169,
+    "city": "Hollywood city, Florida",
+    "population2024": 159073
+  },
+  {
+    "rank": 170,
+    "city": "Hayward city, California",
+    "population2024": 158440
+  },
+  {
+    "rank": 171,
+    "city": "Charleston city, South Carolina",
+    "population2024": 157665
+  },
+  {
+    "rank": 172,
+    "city": "Macon-Bibb County, Georgia",
+    "population2024": 157056
+  },
+  {
+    "rank": 173,
+    "city": "Lakewood city, Colorado",
+    "population2024": 156868
+  },
+  {
+    "rank": 174,
+    "city": "Sunnyvale city, California",
+    "population2024": 156792
+  },
+  {
+    "rank": 175,
+    "city": "Kansas City city, Kansas",
+    "population2024": 156752
+  },
+  {
+    "rank": 176,
+    "city": "Springfield city, Massachusetts",
+    "population2024": 154888
+  },
+  {
+    "rank": 177,
+    "city": "Bellevue city, Washington",
+    "population2024": 154377
+  },
+  {
+    "rank": 178,
+    "city": "Naperville city, Illinois",
+    "population2024": 153124
+  },
+  {
+    "rank": 179,
+    "city": "Joliet city, Illinois",
+    "population2024": 151837
+  },
+  {
+    "rank": 180,
+    "city": "Bridgeport city, Connecticut",
+    "population2024": 151599
+  },
+  {
+    "rank": 181,
+    "city": "Mesquite city, Texas",
+    "population2024": 150140
+  },
+  {
+    "rank": 182,
+    "city": "Pasadena city, Texas",
+    "population2024": 149617
+  },
+  {
+    "rank": 183,
+    "city": "Olathe city, Kansas",
+    "population2024": 149035
+  },
+  {
+    "rank": 184,
+    "city": "Escondido city, California",
+    "population2024": 148847
+  },
+  {
+    "rank": 185,
+    "city": "Savannah city, Georgia",
+    "population2024": 148808
+  },
+  {
+    "rank": 186,
+    "city": "McAllen city, Texas",
+    "population2024": 148782
+  },
+  {
+    "rank": 187,
+    "city": "Gainesville city, Florida",
+    "population2024": 148720
+  },
+  {
+    "rank": 188,
+    "city": "Pomona city, California",
+    "population2024": 147966
+  },
+  {
+    "rank": 189,
+    "city": "Rockford city, Illinois",
+    "population2024": 147486
+  },
+  {
+    "rank": 190,
+    "city": "Thornton city, Colorado",
+    "population2024": 146689
+  },
+  {
+    "rank": 191,
+    "city": "Waco city, Texas",
+    "population2024": 146608
+  },
+  {
+    "rank": 192,
+    "city": "Visalia city, California",
+    "population2024": 146271
+  },
+  {
+    "rank": 193,
+    "city": "Syracuse city, New York",
+    "population2024": 146097
+  },
+  {
+    "rank": 194,
+    "city": "Columbia city, South Carolina",
+    "population2024": 144788
+  },
+  {
+    "rank": 195,
+    "city": "Midland city, Texas",
+    "population2024": 143687
+  },
+  {
+    "rank": 196,
+    "city": "Miramar city, Florida",
+    "population2024": 143242
+  },
+  {
+    "rank": 197,
+    "city": "Palm Bay city, Florida",
+    "population2024": 142023
+  },
+  {
+    "rank": 198,
+    "city": "Jackson city, Mississippi",
+    "population2024": 141449
+  },
+  {
+    "rank": 199,
+    "city": "Coral Springs city, Florida",
+    "population2024": 140808
+  },
+  {
+    "rank": 200,
+    "city": "Victorville city, California",
+    "population2024": 140721
+  },
+  {
+    "rank": 201,
+    "city": "Elizabeth city, New Jersey",
+    "population2024": 140413
+  },
+  {
+    "rank": 202,
+    "city": "Fullerton city, California",
+    "population2024": 140054
+  },
+  {
+    "rank": 203,
+    "city": "Meridian city, Idaho",
+    "population2024": 139740
+  },
+  {
+    "rank": 204,
+    "city": "Torrance city, California",
+    "population2024": 139576
+  },
+  {
+    "rank": 205,
+    "city": "Stamford city, Connecticut",
+    "population2024": 139134
+  },
+  {
+    "rank": 206,
+    "city": "West Valley City city, Utah",
+    "population2024": 138144
+  },
+  {
+    "rank": 207,
+    "city": "Orange city, California",
+    "population2024": 137941
+  },
+  {
+    "rank": 208,
+    "city": "Cedar Rapids city, Iowa",
+    "population2024": 137904
+  },
+  {
+    "rank": 209,
+    "city": "Warren city, Michigan",
+    "population2024": 137686
+  },
+  {
+    "rank": 210,
+    "city": "Hampton city, Virginia",
+    "population2024": 137596
+  },
+  {
+    "rank": 211,
+    "city": "New Haven city, Connecticut",
+    "population2024": 137562
+  },
+  {
+    "rank": 212,
+    "city": "Pasadena city, California",
+    "population2024": 137195
+  },
+  {
+    "rank": 213,
+    "city": "Kent city, Washington",
+    "population2024": 136588
+  },
+  {
+    "rank": 214,
+    "city": "Dayton city, Ohio",
+    "population2024": 136346
+  },
+  {
+    "rank": 215,
+    "city": "Fargo city, North Dakota",
+    "population2024": 136285
+  },
+  {
+    "rank": 216,
+    "city": "Lewisville city, Texas",
+    "population2024": 135983
+  },
+  {
+    "rank": 217,
+    "city": "Carrollton city, Texas",
+    "population2024": 135456
+  },
+  {
+    "rank": 218,
+    "city": "Round Rock city, Texas",
+    "population2024": 135359
+  },
+  {
+    "rank": 219,
+    "city": "Sterling Heights city, Michigan",
+    "population2024": 134342
+  },
+  {
+    "rank": 220,
+    "city": "Santa Clara city, California",
+    "population2024": 133132
+  },
+  {
+    "rank": 221,
+    "city": "Norman city, Oklahoma",
+    "population2024": 131010
+  },
+  {
+    "rank": 222,
+    "city": "Columbia city, Missouri",
+    "population2024": 130900
+  },
+  {
+    "rank": 223,
+    "city": "Abilene city, Texas",
+    "population2024": 130501
+  },
+  {
+    "rank": 224,
+    "city": "Pearland city, Texas",
+    "population2024": 129620
+  },
+  {
+    "rank": 225,
+    "city": "Athens-Clarke County unified government (balance), Georgia",
+    "population2024": 128691
+  },
+  {
+    "rank": 226,
+    "city": "College Station city, Texas",
+    "population2024": 128023
+  },
+  {
+    "rank": 227,
+    "city": "Clovis city, California",
+    "population2024": 127993
+  },
+  {
+    "rank": 228,
+    "city": "West Palm Beach city, Florida",
+    "population2024": 127744
+  },
+  {
+    "rank": 229,
+    "city": "Allentown city, Pennsylvania",
+    "population2024": 127138
+  },
+  {
+    "rank": 230,
+    "city": "North Charleston city, South Carolina",
+    "population2024": 126005
+  },
+  {
+    "rank": 231,
+    "city": "Simi Valley city, California",
+    "population2024": 125778
+  },
+  {
+    "rank": 232,
+    "city": "Topeka city, Kansas",
+    "population2024": 125467
+  },
+  {
+    "rank": 233,
+    "city": "Wilmington city, North Carolina",
+    "population2024": 125284
+  },
+  {
+    "rank": 234,
+    "city": "Lakeland city, Florida",
+    "population2024": 124990
+  },
+  {
+    "rank": 235,
+    "city": "Thousand Oaks city, California",
+    "population2024": 124229
+  },
+  {
+    "rank": 236,
+    "city": "Concord city, California",
+    "population2024": 124016
+  },
+  {
+    "rank": 237,
+    "city": "Rochester city, Minnesota",
+    "population2024": 123624
+  },
+  {
+    "rank": 238,
+    "city": "Vallejo city, California",
+    "population2024": 123475
+  },
+  {
+    "rank": 239,
+    "city": "Ann Arbor city, Michigan",
+    "population2024": 122925
+  },
+  {
+    "rank": 240,
+    "city": "Broken Arrow city, Oklahoma",
+    "population2024": 122756
+  },
+  {
+    "rank": 241,
+    "city": "Fairfield city, California",
+    "population2024": 122646
+  },
+  {
+    "rank": 242,
+    "city": "Lafayette city, Louisiana",
+    "population2024": 122280
+  },
+  {
+    "rank": 243,
+    "city": "Hartford city, Connecticut",
+    "population2024": 122129
+  },
+  {
+    "rank": 244,
+    "city": "Arvada city, Colorado",
+    "population2024": 121873
+  },
+  {
+    "rank": 245,
+    "city": "Berkeley city, California",
+    "population2024": 121749
+  },
+  {
+    "rank": 246,
+    "city": "Independence city, Missouri",
+    "population2024": 121629
+  },
+  {
+    "rank": 247,
+    "city": "Billings city, Montana",
+    "population2024": 121483
+  },
+  {
+    "rank": 248,
+    "city": "Cambridge city, Massachusetts",
+    "population2024": 121186
+  },
+  {
+    "rank": 249,
+    "city": "Lowell city, Massachusetts",
+    "population2024": 120418
+  },
+  {
+    "rank": 250,
+    "city": "Odessa city, Texas",
+    "population2024": 119748
+  },
+  {
+    "rank": 251,
+    "city": "High Point city, North Carolina",
+    "population2024": 118601
+  },
+  {
+    "rank": 252,
+    "city": "League City city, Texas",
+    "population2024": 118456
+  },
+  {
+    "rank": 253,
+    "city": "Antioch city, California",
+    "population2024": 118453
+  },
+  {
+    "rank": 254,
+    "city": "Richardson city, Texas",
+    "population2024": 118221
+  },
+  {
+    "rank": 255,
+    "city": "Goodyear city, Arizona",
+    "population2024": 118186
+  },
+  {
+    "rank": 256,
+    "city": "Pompano Beach city, Florida",
+    "population2024": 118104
+  },
+  {
+    "rank": 257,
+    "city": "Nampa city, Idaho",
+    "population2024": 117350
+  },
+  {
+    "rank": 258,
+    "city": "Menifee city, California",
+    "population2024": 117041
+  },
+  {
+    "rank": 259,
+    "city": "Las Cruces city, New Mexico",
+    "population2024": 116998
+  },
+  {
+    "rank": 260,
+    "city": "Clearwater city, Florida",
+    "population2024": 116811
+  },
+  {
+    "rank": 261,
+    "city": "West Jordan city, Utah",
+    "population2024": 116688
+  },
+  {
+    "rank": 262,
+    "city": "New Braunfels city, Texas",
+    "population2024": 116477
+  },
+  {
+    "rank": 263,
+    "city": "Manchester city, New Hampshire",
+    "population2024": 116386
+  },
+  {
+    "rank": 264,
+    "city": "Miami Gardens city, Florida",
+    "population2024": 116173
+  },
+  {
+    "rank": 265,
+    "city": "Waterbury city, Connecticut",
+    "population2024": 115908
+  },
+  {
+    "rank": 266,
+    "city": "Provo city, Utah",
+    "population2024": 115479
+  },
+  {
+    "rank": 267,
+    "city": "Evansville city, Indiana",
+    "population2024": 115395
+  },
+  {
+    "rank": 268,
+    "city": "Richmond city, California",
+    "population2024": 115353
+  },
+  {
+    "rank": 269,
+    "city": "Westminster city, Colorado",
+    "population2024": 115302
+  },
+  {
+    "rank": 270,
+    "city": "Elgin city, Illinois",
+    "population2024": 114701
+  },
+  {
+    "rank": 271,
+    "city": "Conroe city, Texas",
+    "population2024": 114581
+  },
+  {
+    "rank": 272,
+    "city": "Greeley city, Colorado",
+    "population2024": 114363
+  },
+  {
+    "rank": 273,
+    "city": "Lansing city, Michigan",
+    "population2024": 114336
+  },
+  {
+    "rank": 274,
+    "city": "Buckeye city, Arizona",
+    "population2024": 114334
+  },
+  {
+    "rank": 275,
+    "city": "Tuscaloosa city, Alabama",
+    "population2024": 114288
+  },
+  {
+    "rank": 276,
+    "city": "Allen city, Texas",
+    "population2024": 113746
+  },
+  {
+    "rank": 277,
+    "city": "Carlsbad city, California",
+    "population2024": 113575
+  },
+  {
+    "rank": 278,
+    "city": "Everett city, Washington",
+    "population2024": 113011
+  },
+  {
+    "rank": 279,
+    "city": "Springfield city, Illinois",
+    "population2024": 112949
+  },
+  {
+    "rank": 280,
+    "city": "Beaumont city, Texas",
+    "population2024": 112893
+  },
+  {
+    "rank": 281,
+    "city": "Murrieta city, California",
+    "population2024": 112539
+  },
+  {
+    "rank": 282,
+    "city": "Rio Rancho city, New Mexico",
+    "population2024": 112524
+  }
+]

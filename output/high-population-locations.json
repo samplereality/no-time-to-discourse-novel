@@ -1,0 +1,3237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glendale",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "Arrowhead Ranch | the Thunderbird Conservation Park | the old courthouse | the Foothills Recreation Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.19582381371242,
+          33.58194114077577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mesa",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "the Superstition Mountains | downtown | Hohokam Stadium | the riverfronts | Red Mountain Park | the Mesa Arts Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.73608443382778,
+          33.42391461082718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berkeley",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the University of California Berkeley | Moe's Books | the Berkeley Rose Garden | the Lawrence Berkeley National Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27115197944283,
+          37.87390138656116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Mission Inn Hotel & Spa | the University of California Riverside | Mount Rubidoux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39803857610303,
+          33.941945006336994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vallejo",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Mare Island Historic Park | the Vallejo Naval and Historical Museum | Six Flags Discovery Kingdom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25805200385685,
+          38.11194887191374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aurora",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "the Aurora History Museum | the jail | the Plains Conservation Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.80849695007606,
+          39.695857359875845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greeley",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "the University of Northern Colorado | the elementary school | the old courthouse | the Greeley History Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.73997400085705,
+          40.41919822088124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Vegas",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "the City of Las Vegas Museum | the old Carnegie Library | the central business district"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2225026873823,
+          35.597011941565086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "the Springfield Museum| Willamette University"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.97803389676324,
+          44.05194805813534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ontario",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "the Four Rivers Cultural Center| the Treasure Valley Community College"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.96188948755963,
+          44.02662660631239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kansas City",
+        "adm1name": "Kansas",
+        "note": null,
+        "POI": "the Argentine District | the University of Kansas Medical Center | the Wyandotte County Courthouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.63014637712371,
+          39.11358051694344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Independence",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "the Harry S Truman Presidential Library | the National Frontier Trails Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.41528121110224,
+          39.09111391098014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "McAllen",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the International Museum of Art & Science | the old courthouse | the Hidalgo County Courthouse | Quinta Mazatlan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.22972538429457,
+          26.20303753560313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Braunfels",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Schlitterbahn Waterpark |  the Gruene Historic District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12632084327856,
+          29.697811298637816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasadena",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "Washburn Tunnel | Tepatitlan Bakery | Dollar Tree | Taqueri De Jalisco | Chevron Phillips"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.14774296240728,
+          29.660862649549188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arlington",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Six Flags Over Texas | AT&T Stadium | Texas Live! | Choctaw Stadium | New York Eats"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.02023848650327,
+          32.68476076154036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stamford",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "Ridgeway Shopping Center | Chelsea Piers Connecticut | Grade A Market | Java Joe's | Scalzi Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.53919112312803,
+          41.053345559750994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waterbury",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "the Costco Food Court | Fulton Park | Red White & Blue Thrift Store | Los Garcia Mexican Fusion | Brooklyn Baking Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.05002201505323,
+          41.5500077505082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Baystate Medical Center | Food Zone | MassMutual Center | Smead Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5799990251424,
+          42.120024636903736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Salem Hospital | Salem Common | Salem Dog Park | the Salem Witch Museum | Busa Wine & Spirits"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.88309174577591,
+          42.5224989034777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coral Springs",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Riverside Park | Cypress Park | the Church by the Glades | Macys"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.27082157562899,
+          26.270837014769995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meridian",
+        "adm1name": "Mississippi",
+        "note": null,
+        "POI": "Meridian Crossroads | Uptown Meridian | Aldersgate Retirement Community | Books-A-Million | the Daily Grind"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.70361434096219,
+          32.36418601381769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joliet",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "the Autobahn Country Club | Tony's Finer Foods | Louis Joliet Mall | Cherry Hill Cafe | Presence Saint Joseph Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.10667403334259,
+          41.529983132995085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockford",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "BMO Harris Bank Center | Toad Hall Books and Records | Valli Produce | Pinnon | Beef-A-Roo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.06969018731786,
+          42.26970542303718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elgin",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "Camp Big Timber | Butera Market | Burnidge Forest Preserve | Presence Saint Joseph Hospital | Country Donuts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.28991866224959,
+          42.03946107896064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Glen Miller Park | Fricker's | La Mexicana Mini Market | Golden Living Center | Richmond High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.89028121106406,
+          39.82889833481124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lafayette",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Arnett Hospital | Mike Aulby's Arrowhead Bowl | Igloo Frozen Custard | Cheddar's Scratch Kitchen | the John T. Myers Pedestrian Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.87824772311632,
+          40.41720867823807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Durham",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Duke University | downtown | the tobacco district | Brightleaf Square | the Amtrak station | Durham Bulls Athletic Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.91999963551939,
+          35.999958922360975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "the Rural King | the Clark County Fair Grounds | Springfield Antique Center | Fricker's | the Springfield Extravaganza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.79998600435408,
+          39.920003884941764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "the River Valley Mall | the Fairfield Medical Center | Lancaster High School | Castaways | Roosters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.60530440441431,
+          39.71921510727168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Maury County Park | Apex Recovery | Tennessee Coffee & Smoothie Co. | Mid-Tennessee Bone And Joint Clinic | Lucky Bamboo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.03526656263517,
+          35.61499534000268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hampton",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "Peninsula Town Center | Hampton VA Medical Center | Buckroe Beach | Briarfield Park | Langley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.34994979013152,
+          37.030025247234846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paterson",
+        "adm1name": "New Jersey",
+        "note": null,
+        "POI": "Eastside Park | Brother's Produce | Hinchliffe Stadium | Taşkın Bakery | Red, White And Blue Thrift Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1700053321149,
+          40.9199945262219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "the Shoppes At Belmont | Wegmans | Park City Center Food Court | Dragon Hibachi & Sushi Buffet | Park City Diner & Coffee Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.30576644052195,
+          40.03777447413495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Allentown",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "Coca-Cola Park | St. Luke's Hospital | PPL Center | Supremo Food Market | Elias Farmer's Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.50002750822705,
+          40.599988219254385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochester",
+        "adm1name": "Minnesota",
+        "note": null,
+        "POI": "Scheels | Fleet Farm | Colonial Lanes | Rochester National Volleyball Center | Bowlocity Entertainment Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.46968937352938,
+          44.0220532420546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Everett",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Everett Mall | Costco | Angel of the Winds Arena | Kasch Park | Costco Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19996769396067,
+          47.96041749988274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scottsdale",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "The Promenade | Harkins Camelview 14 | the Scottsdale Waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86804020368504,
+          33.69234783836737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stockton",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Delta | downtown | the university | the port | Weber Point | Stockton 99 Speedway | Don Luis Méxican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.28973901557174,
+          37.95813397119696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Victorville",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Vallarta Supermarkets | Village Park | Emma Jean's Holland Burger Cafe | Doris Davies Park | Sunset Ridge Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.29031905299064,
+          34.5365081980712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasadena",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Rose Bowl | Brookside Park | Vallarta Supermarkets | Rose Bowl Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13887190943927,
+          34.1603812856348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Visalia",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "KOA Visalia | R-N Market | Vossler Farms Pumpkin Patch & Corn Maze | Vallarta Supermarkets | Riverway Sports Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.31600936061591,
+          36.325029519692976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Rosa",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Taylor Mountain Open Space Preserve | Epicenter Sports And Entertainment | Oliver's Market | Wine Country Cafe & Deli | Kaiser Permanente Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69998885281694,
+          38.450403665209365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oceanside",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Guajome Regional Park | El Super | Mission San Luis Rey de Francia | Oceanside Beach | the So Cal Sports Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.33496749049078,
+          33.22046449689407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Modesto",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "El Rematito Flea Market | Taqueria El Maguey | Cost Less Foods | Sutter Gould Medical Foundation | Cost Less"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.98998987006269,
+          37.655413430831175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irvine",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the campus | Woodbury Town Center | Heritage Plaza Shopping Center | Diamond Jamboree Shopping Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.82995019719846,
+          33.680410582507875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Collins",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "Front Range Village Shopping Center | Twin Silo Park | Arc Thrift Store | City Park | Holiday Twin Drive In"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05886926453013,
+          40.56068829249648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clovis",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "Foxy Drive-In | Guy Leeder Complex | Greene Acres Park | Bob Spencer Softball Fields | Leal's Mexican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.20477055033012,
+          34.40506919253687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Cruces",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "Spotted Dog Brewery | the NMSU Golf Course | Field Of Dreams | Mesilla Valley Mall | Si Señor Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.77780827007098,
+          32.312612934390586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fayetteville",
+        "adm1name": "Arkansas",
+        "note": null,
+        "POI": "the Northwest Arkansas Mall | Wright's Barbecue | Premier Wine & Spirit | Baum Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1572091082366,
+          36.06297833154093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "Mizzou Aquatic Center | Boone Hospital Center | Goodwill Retail Store | Jazz, A Louisiana Kitchen | Lakota at University Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.33390954768231,
+          38.95207846989888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norfolk",
+        "adm1name": "Nebraska",
+        "note": null,
+        "POI": "Sunset Plaza Mall | the Elkhorn Valley Museum | Velocity Clinical Research | the First Christian Church | Bomgaars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43359826840594,
+          42.028712381043874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norman",
+        "adm1name": "Oklahoma",
+        "note": null,
+        "POI": "Riverwind Casino | Bookmark Cafe | Atwoods | Moore Norman Technology Center | Braum's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.34414636410872,
+          35.22791302392045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conroe",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Montgomery County Fair Grounds | Carl Barton Jr Park | River Plantation Country Club | Vernon's Kuntry Katfish | Phở & Sushi Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.45586368994748,
+          30.312063211075213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huntsville",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Potato Shack | Grand Buffet | the Sam Houston Statue | the Texas State Prison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.55058659033847,
+          30.723769347144525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Killeen",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the 3d Cavalry Regiment Museum | Warrior Way Post Exchange | Los Burritos | C.E. Ellison High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72748213884978,
+          31.117285379047132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beaumont",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "Patillo's Barbeque | Chicken Express | J Wilson's | Happy Donut | Ford Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.10168278173899,
+          30.08626304017588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denton",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Golden Triangle Mall | Thrift Giant | Braum's | the Old Alton Bridge | CH Collins Athletic Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.12883650896458,
+          33.21576194155551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midland",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the Midland Beer Garden | La Hacienda Event Center | Green Tree Country Club | Market Street | Midland Memorial Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.09749963561217,
+          32.030717996238366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Haven",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "New Haven Green | Yale University | Long Wharf | the Beinecke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.90000533210986,
+          41.33038291326773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lowell",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Lowell General Medical office | Eggroll Cafe | the Pollard Memorial Library | Shedd Park | Peephuptmei Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3166911231192,
+          42.63368837388492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Worcester",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Lincoln Plaza | White City Shopping Center | The Atrium @ St. Vs | Polar Park | Elm Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80002079434507,
+          42.27042889308922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester",
+        "adm1name": "New Hampshire",
+        "note": null,
+        "POI": "Mall of New Hampshire Food Court | The Elliot at River's Edge | Aldi | Chunky's Cinema Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455287314526,
+          42.995991840683246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tuscaloosa",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "Midtown Village | University Mall | Cook Out | Dreamland BBQ | Wrights"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.54417606784557,
+          33.225115375800385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Coral",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Farmer Joe's | North Fort Myers High School | Back Streets Sports Bar | Lelulo's | Mangia Bene Restaurant Italian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.97968367687281,
+          26.602909768677478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Lauderdale",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Holiday Park | Broward Center for the Performing Arts | Elbo Room | Revolution Live | Fort Lauderdale Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.14178552419605,
+          26.13606487935283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbus",
+        "adm1name": "Georgia",
+        "note": null,
+        "POI": "Columbus Park Crossing | Cross Country Plaza | Cooper Creek Park | Stars and Strikes | Heath Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.98001733573898,
+          32.47043275860983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aurora",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.29999556654639,
+          41.765395120300695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Wayne",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Jefferson Pointe Mall | Allen County War Memorial Coliseum | the Fort Wayne Children's Zoo | Rich's Cafe | Casa Grille Italiano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.12998234225,
+          41.080398172055766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jacksonville",
+        "adm1name": "North Carolina",
+        "note": 4,
+        "POI": "Marine Corps Exchange | Carolina Ale House | Onslow Pines | Naval Hospital Camp Lejeune | Mi Cabaña"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43055566578681,
+          34.7543243601815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fayetteville",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Freedom Town Center | Cumberland Veteran Affairs Medical Center | Fort Bragg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88359358896969,
+          35.06293601382862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winston-Salem",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "the Reynolda House | Old Salem | Kermit's Hot Dog House | the Wake Forest campus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.25999536306381,
+          36.105430520668676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akron",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Stan Hywet Hall | Canal Park | the University of Akron | the Highland Theater | Parasson's | the Goodyear blimp hangar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.51999597342046,
+          41.07039878240721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murfreesboro",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "The Avenue | Stones River Mall | Farmers Family Restaurant | Murfreesboro Medical Clinic | Cook Out"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.39026717298418,
+          35.845963154131255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clarksville",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Governor's Square Mall | Clarksville Speedway | Beachaven Winery | Catfish House | Heritage Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.35943282240208,
+          36.530081603027156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackson",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Food Giant | North Park | Cypress Grove Nature Park | Brooksie's Barn | Los Portales Mexican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.81389184747303,
+          35.61486614892192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria",
+        "adm1name": "Virginia",
+        "note": null,
+        "POI": "Shoppes of Foxchase | the Old Town Waterfront | Green Spring Gardens | Founders Park | Barnside Diner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.09998152841581,
+          38.82043275863521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilmington",
+        "adm1name": "Delaware",
+        "note": 4,
+        "POI": "Pete's Pizza | China House Express | Chase Fieldhouse | Brandywine Park | Salesianum School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.54689803231582,
+          39.74626771957645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newark",
+        "adm1name": "New Jersey",
+        "note": 4,
+        "POI": "Prudential Center | Branch Brook Park | Newark airport | Soul Food Chess House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1700053321149,
+          40.700421365413604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ann Arbor",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "the Ark | Nickels Arcade | Busch's Fresh Food Market | Main Street | the stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7199908871662,
+          42.300375385602365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Rapids",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "Van Andel Arena | Frederik Meijer Gardens & Sculpture Park | John Ball Park | the John Ball Zoo | Riverside Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66994938326775,
+          42.96371990871705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tacoma",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Metropolitan Market | the Point Defiance Zoo & Aquarium | Clear Choice Cannabis | Browns Point Lighthouse Park | Cheney Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.51501306342811,
+          47.21131593737971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Long Beach",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Aquarium of the Pacific | the port | the San Diego freeway | Shoreline Park | Alamitos Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1580438658196,
+          33.78696738589372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carlsbad",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "the caverns | Juicy Peach Espresso | Milton's Brewing | Red Chimney Pit Bar-B-Q | Yellow Brix Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.22829980651903,
+          32.42056500144815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Provo",
+        "adm1name": "Utah",
+        "note": null,
+        "POI": "Provo River Parkway | Peaks Ice Arena | the BYU Creamery on Ninth | Street Tacos Don Joaquin | The Shops at Riverwoods"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6377700213925,
+          40.24889853826335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Little Rock",
+        "adm1name": "Arkansas",
+        "note": null,
+        "POI": "Outlets of Little Rock | Promenade at Chenal | Midtowne Shopping Center | the Little Rock Zoo | the state capitol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.33109318212252,
+          34.73608257958256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wichita",
+        "adm1name": "Kansas",
+        "note": null,
+        "POI": "the Botanica | Intrust Bank Arena | Sedgwick County Zoo | downtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32998702166077,
+          37.71998313297979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lafayette",
+        "adm1name": "Louisiana",
+        "note": 5,
+        "POI": "Billys Boudin and Cracklin | Kart Ranch | Buffet City Lafayette | Girard Park | Lagneaux's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.01994938329318,
+          30.199977029434194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Odessa",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Market Street | Music City Mall | Dos Amigos | Zavala Elementary | Rosa's Cafe and Tortilla Factory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3672247739596,
+          31.845561339336598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waco",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Grace Gospel Campground | Central Texas Marketplace | Magnolia Market | Rosa's Cafe | the bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.14638065772766,
+          31.54917116192655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lubbock",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Costco | Cagle Steaks | Stripes | Food King | the Stars & Stripes Drive-In Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.87996769387951,
+          33.580003274564774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hartford",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "Hartford's North End | Aqui Me Quedo | Parkville Market | Dunkin' Park | Jahm Ske's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68191294202404,
+          41.771966019603724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Providence",
+        "adm1name": "Rhode Island",
+        "note": null,
+        "POI": "Roger Williams Park | Brown University | RISD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4169255559512,
+          41.82304817292436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birmingham",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "The Summit | UAB Hospital | Vulcan Park | Full Moon BBQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.82499515963957,
+          33.53000632632251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mobile",
+        "adm1name": "Alabama",
+        "note": 5,
+        "POI": "The Shoppes at Bel Air | Providence Hospital | Hart's Fried Chicken | Medal of Honor Park | Greater Gulf State Fairgrounds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.04998498711842,
+          30.68002524720947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Petersburg",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Sawgrass Lake County Park | Vinoy Park | North Shore Park | Carmelita's Mexican Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.67938257010474,
+          27.770538756312476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "Ritz's Lil' Fryer | Cozy Dog Drive In | Humphrey's Market | Star 66 Cafe | Long Bridge Golf Course"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.65001652195548,
+          39.820009988457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greensboro",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "the university | downtown | Kernersville | the Friendly Center | K&W Cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.80002343923383,
+          36.07000632633259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dayton",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "George's Family Restaurant | National Museum of the US Air Force | Dayton Children's Hospital | Eastwood MetroPark & Lake | Marion's Piazza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20193328712207,
+          39.75232185455661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Virginia Beach",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "Landstown Commons Shopping Center | Red Mill Commons | Mount Trashmore Park | Virginia Aquarium & Marine Science Center | Kempsville Rec Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.98026458591744,
+          36.855160192761275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madison",
+        "adm1name": "Wisconsin",
+        "note": null,
+        "POI": "the University of Wisconsin campus | the State Capitol | the Willy Street Cooperative | State Street | the Isthmus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.40111698582177,
+          43.07301556301434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lansing",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "Eastwood Towne Center | Hawk Island County Park | Westgate Tavern | Flap Jack Restaurant | Twisters Ice Cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.54673628918766,
+          42.73352724107275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Clara",
+        "adm1name": "Villa Clara",
+        "note": null,
+        "POI": "Monumento a la Toma del Tren Blindado | the Che Guevara Mausoleum | Parque Vidal | Casona Guevara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.96665409515902,
+          22.400013853947257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bakersfield",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Mercado Latino | Hart Park | Vallarta Supermarkets | Mariscos Las Islitas | Cope's Knotty Pine Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.01998091823191,
+          35.36997153629068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakland",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Oakland Zoo | Jack London Square | 12th and Broadway | Lake Merritt | Oracle Arena | downtown | the hills"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.22110335476816,
+          37.76892071436032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Costco | Carbonara Food Truck | George Lane Park | Superior Grocers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13582299993413,
+          34.698048725415674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salinas",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Northridge Mall | Food Co | El Charrito | El Super | Alvarado Street Brewery and Tasting Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.64165551947929,
+          36.68221701969446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eugene",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "Costco | the McDonald Theatre | Jerry's Home Improvement | the Fern Ridge Bike Path"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.10001611518834,
+          44.0500101919244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cedar Rapids",
+        "adm1name": "Iowa",
+        "note": null,
+        "POI": "the Cedar Rapids Public Library | Fareway | Noelridge Park | Tic Toc | Theisen's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.66002303238031,
+          41.9699821157443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "James River Church | Wonders of Wildlife | Hyvee Liquor | Neighborhood Pizza Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.31999922867601,
+          37.180016091962045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lincoln",
+        "adm1name": "Nebraska",
+        "note": null,
+        "POI": "the University of Nebraska | SouthPointe Pavilions | Gateway Mall | Haymarket | Hy Vee Wine & Spirits | Shoemakers Truckers Dining | Memorial Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.68000085629359,
+          40.81997479152096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria",
+        "adm1name": "Louisiana",
+        "note": null,
+        "POI": "Outlaw's Barbecue | Walk-On's Sports Bistreaux | Mac's Fresh Market | Hokus Pokus Liquor | The Grand Theatre 16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.44501387710994,
+          31.311097838357796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abilene",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Market Street | Mall of Abilene | Lytle Land & Cattle Co. | Rosa's Cafe | Dixie Pig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.732786093936,
+          32.44862530418271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brownsville",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "Brownsville Sports Park | the SpaceX launch site | Bigo's Bar & Grill | Galaxy Bowling Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50000248390103,
+          25.91997987772436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Concord",
+        "adm1name": "New Hampshire",
+        "note": null,
+        "POI": "Makris Lobster & Steak House | White Park | Memorial Building | Windmill Family Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.53804712084138,
+          43.20807191880908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huntsville",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "Bridge Street Town Centre | the U.S. Space and Rocket Center | Shaggy's Burgers and Tacos | Campus 805 | El Olmeca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.60999536308924,
+          34.71995953270738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Palm Beach",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Village Commons | Rosemary Square | Elisabetta's Ristorante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.12362125824558,
+          26.745019957480224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gainesville",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Butler Plaza | Celebration Pointe | Spurrier’s Restaurant | 43rd Street Deli & Breakfast House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.32503727387933,
+          29.651380024223556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charleston",
+        "adm1name": "South Carolina",
+        "note": 4,
+        "POI": "Ashley Landing | 82 Queen | Charleston City Market | Magnolia Plantation & Gardens | Rainbow Row"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99210473806278,
+          32.79237693178834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peoria",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "Glen Hollow Shopping Center | The Shoppes At Grand Prairie | Carver Arena | Methodist Medical Center of Illinois | the Peoria Civic Center Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.67004113946871,
+          40.69998211573909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Evansville",
+        "adm1name": "Indiana",
+        "note": null,
+        "POI": "Ford Center | Donut Bank Bakery & Coffee Shop | Crazy Buffet Chinese Restaurant | Kipplee's | Showplace East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.55582910332737,
+          37.97469626774648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charlotte",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Bank of America Stadium | the NASCAR Hall of Fame | Freedom Park | the light rail | uptown | Camp North End | NoDa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.83198394628829,
+          35.2069403848119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toledo",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Franklin Park Mall | St. John's Jesuit High School | the GM plant | the waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.57997359387139,
+          41.67002626450608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbus",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Nationwide Arena | German Village | the Short North | Scioto Mile | the statehouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.99195546322409,
+          39.9819202432293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chattanooga",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "McKay Used Books & CDs | the Tennessee Aquarium | Coolidge Park | Food City | Chickamauga Dam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.25000085624788,
+          35.06998984683645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland",
+        "adm1name": "Maine",
+        "note": null,
+        "POI": "The Great Lost Bear | Portland Food Co-op | Deering Oaks Park | Portland Public Library | Becky's Diner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.24552739927043,
+          43.672161575598466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Prairie",
+        "adm1name": "Alberta",
+        "note": null,
+        "POI": "Avenue Eatery and Cafe | Cedars Bakery | Borealis Pet Centre | Benjamin Moore | Fort McMurray Animal Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.79999434596539,
+          55.1666443065522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Bernardino",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "San Manuel Casino | Glen Helen Regional Park | Tutu’s Food Court | St. Bernardine Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.30198008087439,
+          34.1223295856538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgeport",
+        "adm1name": "Connecticut",
+        "note": null,
+        "POI": "St. Vincent's Medical Center | Food Bazaar | Seaside Park | Macron Store | Duchess"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.20190704196108,
+          41.1819245156953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochester",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the High Falls | Eastman Theatre | Highland Park | the Public Market | Mount Hope Cemetery | the Strong Museum of Play"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.62189564874956,
+          43.17237149649736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Paul",
+        "adm1name": "Minnesota",
+        "note": null,
+        "POI": "Xcel Energy Center | the State Capitol | Grand Avenue | Summit Hill | Como Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.08497481461256,
+          44.943986632357735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Billings",
+        "adm1name": "Montana",
+        "note": null,
+        "POI": "Rimrock Mall | MetraPark | Billings Studio Theatre Inc | Billings Clinic Hospital | Manny's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.54000044943984,
+          45.78830202135839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fargo",
+        "adm1name": "North Dakota",
+        "note": null,
+        "POI": "West Acres Mall | Sanford Medical Center | Essentia Health | Food Court | The Shack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.78942570167163,
+          46.87722780261288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spokane",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "River Park Square | Yoke's Fresh Market | Spokane Veterans Memorial Arena | Dwight Merkel Sports Complex | Riverfront Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.41994938339474,
+          47.66999595040238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vancouver",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Tola Angkor Market | the Vancouver Clinic | Vancouver Farmers Market | Frontier Public House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.63999251492606,
+          45.63030132962615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tucson",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "the Sonoran Desert | the university | Saguaro National Park | downtown | the mountains | Spectrum Mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.89193206652578,
+          32.20694262275566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fresno",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Tower District | Forestiere Underground Gardens | the fairgrounds | Woodward Park | downtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.77298405137293,
+          36.74771689762446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colorado Springs",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "Garden of the Gods | In-N-Out Burger | the Cheyenne Mountain Zoo | Garden of the Gods Trading Post | Bubba's 33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79198632995883,
+          38.86296246241153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reno",
+        "adm1name": "Nevada",
+        "note": null,
+        "POI": "Idlewild Park | the Grand Sierra Grand Theatre | Shayden Summit | Hometown Cafe | Reno-Sparks Livestock Events Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.82000960475847,
+          39.52997601221881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Albuquerque",
+        "adm1name": "New Mexico",
+        "note": null,
+        "POI": "North Domingo Baca Park | Tin Can Alley ABQ | Frontier | Taqueria El Paisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64133081238799,
+          35.10497479149802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "The Yard Food Park | Keizer Station | CFC Futbol Club | Plaid Pantry | Salem Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0238967304224,
+          44.928070291211725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Topeka",
+        "adm1name": "Kansas",
+        "note": null,
+        "POI": "Lake Shawnee | the Topeka & Shawnee County Public Library | the Combat Air Museum | banjo's cafe | The Wheel Barrel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6699849871489,
+          39.05000530909189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kansas City",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "Zona Rosa | Kauffman Stadium | City Market | GEHA Field at Arrowhead Stadium | the Kansas City Zoo & Aquarium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6060400775458,
+          39.10903436839749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tulsa",
+        "adm1name": "Oklahoma",
+        "note": null,
+        "POI": "The Gathering Place | Golden Driller | BOK Center | Tandy Family YMCA | Utica Square Shopping Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.93002079444159,
+          36.120003274575026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sioux Falls",
+        "adm1name": "South Dakota",
+        "note": null,
+        "POI": "Western Mall | Shoppes at Dawley Farm | Falls Park | Sanford USD Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.72999780453597,
+          43.5499890330683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shreveport",
+        "adm1name": "Louisiana",
+        "note": null,
+        "POI": "Mall St. Vincent | Southern Classic Chicken | Johnny's Catfish & Seafood | Independence Stadium | Bergeron's Boudin & Cajun Meats"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.77002343928973,
+          32.500017516097046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baton Rouge",
+        "adm1name": "Louisiana",
+        "note": 5,
+        "POI": "the Baton Rouge Zoo | Hi Nabor | Don Carter's All Star Lanes | Tony's Seafood | Mike Anderson's Seafood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.14015812352397,
+          30.457945779435136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corpus Christi",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "the harbor bridge | Padre Island | downtown | the naval air station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4018947771948,
+          27.742814350387846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "6th Street | the Capitol building | Lady Bird Lake | Zilker Park | the Ransom Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74472422142117,
+          30.26889554429738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amarillo",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Cinergy Amarillo Featuring EPIC | Westgate Mall | United Supermarkets | The Big Texan Steak Ranch | Spicy Mike's Bar-B-Q Haven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.82999658385324,
+          35.229980081212034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Paso",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Speaking Rock Casino And Entertainment | Union Draft House | Fort Bliss Main Exchange | Vista Central Market | Scenic Drive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.51194101833124,
+          31.78192980537125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laredo",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Independence Hills Regional Park | La Laguna | North Central Park | Sames Auto Arena | El Taco Tote"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.50721846698184,
+          27.506136290490986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montgomery",
+        "adm1name": "Alabama",
+        "note": null,
+        "POI": "The Shoppes At Eastchase | Eastdale Mall | Wynton Blount Cultural Park | Brenda's Bar-B-Q Inc | Walk-On's Sports Bistreaux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.27918868177272,
+          32.361602192203065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tallahassee",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Costco | Cascades Park | Railroad Square Art Park | The Egg Cafe & Eatery | Palace Saloon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.28003422212942,
+          30.449987608862102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orlando",
+        "adm1name": "Florida",
+        "note": 2,
+        "POI": "Disney World | Universal Studios | downtown | Lake Eola | the theme parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.38197621517077,
+          28.511922684589933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jacksonville",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Jacksonville Beach | the Navy base | the Jacksonville Zoo | William F Sheffield Regional Park | VyStar Veterans Memorial Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.67193267676049,
+          30.331966629909687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Savannah",
+        "adm1name": "Georgia",
+        "note": 4,
+        "POI": "SCAD | Candler Hospital | Daffin Park | Lake Mayer Park | Leopold's Ice Cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.10999515961657,
+          32.02110617983209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia",
+        "adm1name": "South Carolina",
+        "note": null,
+        "POI": "Shoppes at Woodhill | Publix Deli | the Riverbanks Zoo & Garden | the Richland Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.89998213878243,
+          34.03997519839476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilmington",
+        "adm1name": "North Carolina",
+        "note": 4,
+        "POI": "Cook Out | Winnie's Tavern | Halyburton Park | Cardinal Lanes Beach Bowl | Carolina Ale House | the waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.94502038746856,
+          34.22551942853886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knoxville",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Kroger | Sunspot | Thompson-Boling Arena | McKay Used Books, CDs, Movies & More | Lakeshore Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.92003035656808,
+          35.97001242984783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "Willow Lawn | the University of Richmond | the Altria Theater | William Byrd Park | Cook-Out | Movieland At Boulevard Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.45193186294159,
+          37.55196520578477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charleston",
+        "adm1name": "West Virginia",
+        "note": null,
+        "POI": "Kanawha State Forest | China Buffet | Bridgeport Equipment & Tools | Booker T. Washington Memorial | Tudor's Biscuit World"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.63272811046517,
+          38.3497379751048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baltimore",
+        "adm1name": "Maryland",
+        "note": 4,
+        "POI": "Fort McHenry | the Inner Harbor | Camden Yards | Federal Hill | Fell's Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62193084568548,
+          39.30193590891673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Syracuse",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the Carrier Dome | Armory Square | Clinton Square | Syracuse University | Onondaga Lake Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.15001367359423,
+          43.04999371242826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Jose",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Tech Museum | the Winchester Mystery House | Santana Row | the airport | a bland Silicon Valley office park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.851934914877,
+          37.30192878814046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sacramento",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the State Capitol | Old Sacramento | the river | Tower Bridge | midtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.47198394645096,
+          38.57696724029415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Vegas",
+        "adm1name": "Nevada",
+        "note": null,
+        "POI": "the Strip | Fremont Street | the Bellagio fountains | Red Rock Canyon | Caesars Palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.22195200469417,
+          36.21194364002429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portland",
+        "adm1name": "Oregon",
+        "note": 1,
+        "POI": "Powell's Books | the waterfront | Forest Park | the Pearl District | food trucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68193593213289,
+          45.521969681728024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salt Lake City",
+        "adm1name": "Utah",
+        "note": null,
+        "POI": "the campus | the temple | Delta Center | Liberty Park | Harmons Grocery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.93199778104821,
+          40.77696215404006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Des Moines",
+        "adm1name": "Iowa",
+        "note": null,
+        "POI": "Wells Fargo Arena | the Blank Park Zoo | Fareway | Flix Brewhouse | Smokey Row Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.61998091813024,
+          41.57998008123735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Omaha",
+        "adm1name": "Nebraska",
+        "note": null,
+        "POI": "the Old Market | Boys Town | the Henry Doorly Zoo | the riverfront | downtown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.00999007341329,
+          41.24000083318924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oklahoma City",
+        "adm1name": "Oklahoma",
+        "note": null,
+        "POI": "the bombing memorial | Bricktown | the stockyards | Lake Hefner | the capitol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52062937278737,
+          35.47198880603685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Antonio",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "the River Walk | the Alamo | Market Square | Brackenridge Park | the Pearl District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50925119896328,
+          29.48927904852593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackson",
+        "adm1name": "Mississippi",
+        "note": null,
+        "POI": "Highland Village | Cups @ UMMC | Medgar Evers' Home | Bully's Great Soul Food | The Pig & Pint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.18499678725715,
+          32.29881532696845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raleigh",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Crabtree Valley Mall | North Hills Shopping Center | Belk | Hunt Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.64469344248448,
+          35.818781350745724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cleveland",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Lake Erie | the Flats | the West Side Market | Rocket Arena | Progressive Field | the Rock and Roll Hall of Fame"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69694406998963,
+          41.47193265371732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cincinnati",
+        "adm1name": "Ohio",
+        "note": null,
+        "POI": "Union Terminal | Fountain Square | Over-the-Rhine | Great American Ball Park | Mount Adams"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45886850847734,
+          39.16383064361685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Memphis",
+        "adm1name": "Tennessee",
+        "note": null,
+        "POI": "Beale Street | Graceland | FedExForum | the Mississippi River | Sun Studio | the Pyramid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.00194101826514,
+          35.12193265369183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norfolk",
+        "adm1name": "Virginia",
+        "note": 4,
+        "POI": "the Naval Station | downtown | the Botanical Garden | the zoo | the waterfront"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.28000573902449,
+          36.84995871891391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milwaukee",
+        "adm1name": "Wisconsin",
+        "note": null,
+        "POI": "the lakefront | Lambeau Field | the brewery district | the Riverwalk | the Summerfest grounds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.92191294208499,
+          43.05460090730418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buffalo",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the Elmwood Village | Canalside | a Frank Lloyd Wright house | the Central Terminal | Delaware Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88194793553828,
+          42.88192410880083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pittsburgh",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "Dancing Gnome | PPG Paints Arena | Market Square | the Warhol Museum | The Warren Bar & Burrow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.00193125260023,
+          40.43194445384313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minneapolis",
+        "adm1name": "Minnesota",
+        "note": null,
+        "POI": "Target Field | U.S. Bank Stadium | the Skyway | the Walker Art Center | downtown | the U of M campus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.25373219666352,
+          44.98192512606187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seattle",
+        "adm1name": "Washington",
+        "note": 1,
+        "POI": "Pike Place Market | the Space Needle | Elliott Bay | Capitol Hill | the ferry terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34193084586849,
+          47.57194791253073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenix",
+        "adm1name": "Arizona",
+        "note": null,
+        "POI": "Camelback Mountain | Sky Harbor | Chase Field | Papago Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.07193755969467,
+          33.5419257363676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Diego",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Balboa Park | the harbor | Coronado Beach | the zoo | Mission Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.18193572866028,
+          32.82196968167733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Louis",
+        "adm1name": "Missouri",
+        "note": null,
+        "POI": "the Gateway Arch | Forest Park | the Central West End | Busch Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2419263698286,
+          38.636963578185146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Orleans",
+        "adm1name": "Louisiana",
+        "note": 5,
+        "POI": "the French Quarter | the levees | the streetcar lines | the Garden District | Bourbon Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.04191273864285,
+          29.99694831936148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dallas",
+        "adm1name": "Texas",
+        "note": null,
+        "POI": "Dealey Plaza | the skyline | Fair Park | White Rock Lake | Deep Ellum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84196278749818,
+          32.82196968167733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston",
+        "adm1name": "Massachusetts",
+        "note": null,
+        "POI": "Fenway Park | the Harbor | Harvard Square | the Freedom Trail | Beacon Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07195953218684,
+          42.33190600170229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tampa",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "Amalie Arena | George M Steinbrenner Field | Ybor City | downtown | MacDill Air Force Base | the riverwalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.46056670996677,
+          27.94893379298594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia",
+        "adm1name": "Pennsylvania",
+        "note": null,
+        "POI": "Independence Hall | the Liberty Bell | South Street | Rittenhouse Square | the Art Museum steps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17194183200792,
+          40.001919022526465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Detroit",
+        "adm1name": "Michigan",
+        "note": null,
+        "POI": "Little Caesars Arena | Comerica Park | Ford Field | Belle Isle Park | Eastern Market | the GM plant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0820016464927,
+          42.33190600170229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "Golden Gate Park | Ferry Building Marketplace | Oracle Park | Pier 39 | Chase Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41716877355225,
+          37.76919562968743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver",
+        "adm1name": "Colorado",
+        "note": null,
+        "POI": "the 16th Street Mall | Red Rocks | the Denver Art Museum | Coors Field | the bus station | the Denver Zoo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9859618109682,
+          39.7411339069655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston",
+        "adm1name": "Texas",
+        "note": 5,
+        "POI": "the Astrodome | the downtown tunnels | the Ship Channel | NASA Johnson Space Center | Memorial Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.341925149146,
+          29.821920243188856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miami",
+        "adm1name": "Florida",
+        "note": 3,
+        "POI": "South Beach | Biscayne Bay | the Art Deco District | Little Havana | Calle Ocho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.22605193945003,
+          25.789556555021534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlanta",
+        "adm1name": "Georgia",
+        "note": null,
+        "POI": "Mercedes-Benz Stadium | Peachtree Street | the Beltline | Piedmont Park | the CDC | the airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40189524187565,
+          33.83195971260585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago",
+        "adm1name": "Illinois",
+        "note": null,
+        "POI": "the L tracks | the Navy Pier | Millennium Park | the lakefront | Wrigley Field"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.75200083270931,
+          41.83193651927843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vancouver",
+        "adm1name": "British Columbia",
+        "note": null,
+        "POI": "Kitsilano Beach | Pacific Spirit Regional Park | Stanley Park | Queen Elizabeth Park | Stanley Park English Bay Seawall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1235900763943,
+          49.27536244271175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles",
+        "adm1name": "California",
+        "note": 1,
+        "POI": "the Hollywood sign | Sunset Boulevard | LACMA | the Getty | the Huntington | the La Brea Tar Pits | Venice Beach | the Walk of Fame | Crypto.com Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18192636994041,
+          33.99192410876543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York",
+        "adm1name": "New York",
+        "note": null,
+        "POI": "the Brooklyn Bridge | Times Square | Central Park | the subway tunnels | Wall Street | the 9/11 Memorial North Pool | MOMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98196278740681,
+          40.75192492259464
+        ]
+      }
+    }
+  ]
+}
