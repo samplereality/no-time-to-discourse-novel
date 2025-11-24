@@ -95,6 +95,9 @@ function generatePreamble() {
 \\usepackage{helvet}
 \\renewcommand{\\familydefault}{\\sfdefault}
 
+% Use single spacing after periods (not double)
+\\frenchspacing
+
 % Define Hawaiian 'okina character (U+02BB)
 \\newunicodechar{ʻ}{\\textquotesingle}
 
