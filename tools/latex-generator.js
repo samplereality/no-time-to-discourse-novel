@@ -23,7 +23,7 @@ function sanitizeUnicode(text) {
         .replace(/[\u2018\u2019]/g, "'")  // Single quotes
         .replace(/[\u201C\u201D]/g, '"')  // Double quotes
         // Em/en dashes to hyphens
-        .replace(/[\u2013\u2014]/g, '-')
+        //.replace(/[\u2013\u2014]/g, '-')
         // Other punctuation
         .replace(/\u2026/g, '...')        // Ellipsis
         // Keep only ASCII printable characters plus newlines/tabs
@@ -152,17 +152,17 @@ function generatePreamble() {
 
 \\vspace{0.3in}
 
-This novel was generated for NaNoGenMo (National Novel Generation Month), transforming the web-based interactive experience into a print format. Each page combines watercolor maps from Stamen Design with procedurally-generated stories created through RiTa.js grammars.
+\\noindent This novel was generated for NaNoGenMo (National Novel Generation Month), transforming the web-based interactive experience of https://notime.now/ into a print format. Each page combines watercolor maps from Stamen Design with works of flash fiction, which are procedurally-generated through bespoke RiTa.js grammars developed by Mark Sample.
 
 \\vspace{0.3in}
 
-Each of the stories in this novel is a work of fiction, yet each also attempts to capture at a human level the realities of climate disaster.
+\\noindent Each of the stories in this novel is a work of fiction, yet each also attempts to capture at a human level the realities of climate disaster.
 
 \\vspace{0.3in}
 
-\\textbf{Original Web Project:} \\url{https://notime.now/}
+\\noindent\\textbf{Original Web Project:} \\url{https://notime.now/}
 
-\\textbf{Code Repository:} \\url{https://github.com/samplereality/no-time-to-discourse-novel}
+\\noindent\\textbf{Code Repository:} \\url{https://github.com/samplereality/no-time-to-discourse-novel}
 
 \\clearpage
 
@@ -392,7 +392,7 @@ function generatePage(mapImagePath, stories, pageNumber, tileInfo) {
   }%
   % Page number in bottom margin (below map)
   \\put(4.25in,0.05in){%
-    \\makebox[0pt]{${pageNumber}}%
+    \\makebox[0pt]{- ${pageNumber} -}%
   }%
 }%
 ~\\vfill
