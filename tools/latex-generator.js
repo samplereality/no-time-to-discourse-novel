@@ -22,8 +22,9 @@ function sanitizeUnicode(text) {
         // Smart quotes to regular quotes
         .replace(/[\u2018\u2019]/g, "'")  // Single quotes
         .replace(/[\u201C\u201D]/g, '"')  // Double quotes
-        // Em/en dashes to hyphens
-        //.replace(/[\u2013\u2014]/g, '-')
+        // Em/en dashes to LaTeX format
+        .replace(/\u2014/g, '---')        // Em dash → ---
+        .replace(/\u2013/g, '--')         // En dash → --
         // Other punctuation
         .replace(/\u2026/g, '...')        // Ellipsis
         // Keep only ASCII printable characters plus newlines/tabs
