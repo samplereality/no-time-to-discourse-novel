@@ -1,25 +1,16 @@
 # No Time to Discourse - NaNoGenMo Novel
 
-A procedurally-generated 51,024-word novel created for [NaNoGenMo](https://nanogenmo.github.io/) (National Novel Generation Month).
+A procedurally-generated ~50K-word novel created for [NaNoGenMo](https://nanogenmo.github.io/) (National Novel Generation Month).
 
 ## What is this?
 
-This project transforms the interactive web-based "[No Time to Discourse](https://notime.now/)" climate disaster atlas into a print novel. The novel combines watercolor maps from Stamen Design with procedurally-generated flash fiction stories about climate disasters across North America.
+This project transforms the interactive web-based "[No Time to Discourse](https://notime.now/)" speculative climate disaster atlas into a print novel. The novel combines watercolor maps from Stamen Design with procedurally-generated flash fiction stories about climate disasters across North America. The flash fiction stories are not AI-written; rather, they are constructed from bespoke language models handcrafted by Mark Sample.
 
 ## Novel Statistics
 
-- **Word Count**: 51,024 words (exceeds the 50,000 NaNoGenMo requirement!)
-- **Pages**: 255 pages
-- **Stories**: 1,275 unique procedurally-generated stories
-- **Chapters**: 5 geographic regions
-
-### Chapter Breakdown
-
-1. **West Coast & Hawaii** - 61 pages, 305 stories
-2. **East Coast** - 19 pages, 95 stories
-3. **Florida** - 26 pages, 130 stories
-4. **Gulf Coast** - 22 pages, 110 stories
-5. **Far North/Alaska** - 115 pages, 575 stories
+- **Word Count**: ~50,000 words (varies per generation)
+- **Pages**: ~400-450 pages (varies per generation based on story placement)
+- **Stories**: ~1,200 unique procedurally-generated stories from ~920 distinct locations in the U.S. and Canada (some high-population cities get multiple stories)
 
 ## How It Works
 
@@ -27,7 +18,7 @@ The novel is generated using:
 
 1. **RiTa.js (v2.8.31)** - Context-free grammar expansion for story generation
 2. **Grammar Rules** - Extensive rules in [assets/js/grammar.js](assets/js/grammar.js) define story patterns
-3. **Disaster Data** - 337 locations with disaster types from [assets/js/disasters.json](assets/js/disasters.json)
+3. **Disaster Data** - hundreds of locations with disaster types from [assets/js/disasters.json](assets/js/disasters.json)
 4. **LaTeX** - Professional typesetting system for PDF output
 
 Each story is unique, generated on-the-fly using:
@@ -35,7 +26,7 @@ Each story is unique, generated on-the-fly using:
 - Random character names and pronouns
 - Context-aware seasonal and weather details
 - Location-specific Points of Interest
-- Disaster-type variety (max 2 of same type per page)
+- Disaster-type variety
 
 ## Quick Start
 
@@ -60,7 +51,6 @@ brew install --cask mactex
 # Compile
 cd output
 pdflatex novel.tex
-pdflatex novel.tex  # Run twice for proper references
 ```
 
 See [SETUP.md](SETUP.md) for detailed installation instructions.
@@ -72,7 +62,7 @@ node generate-novel.js [options]
 
 Options:
   --zoom=N        Map zoom level (default: 8)
-  --stories=N     Stories per page (default: 5)
+  --stories=N     Stories per page (default: 3)
   --max-same=N    Max stories of same type per page (default: 2)
   --skip-tiles    Skip downloading map tiles (faster for testing)
 ```
@@ -83,7 +73,7 @@ Options:
 no-time-to-discourse-novel/
 ├── generate-novel.js          # Main novel generator
 ├── assets/js/
-│   ├── disasters.json         # 337 disaster locations
+│   ├── disasters.json         # ~1,300 locations (337 with disaster notes)
 │   ├── grammar.js             # Story generation rules
 │   └── rita.js                # RiTa library (browser version)
 ├── tools/
@@ -118,19 +108,18 @@ The grammar includes rules for:
 - Sea level rise (Florida)
 - Oil spills and red tides (Gulf Coast)
 - Ice melt and Arctic change (Far North)
-- Theme park disasters (Orlando)
 - Personal reflections and media consumption
 
 ### Layout
 
 Each page features:
 - Background: Watercolor map tile
-- Foreground: 5 stories in semi-transparent white boxes
-- Positions: Top-left, top-right, middle-left, middle-right, bottom-center
+- Foreground: 2-3 stories in white boxes with rounded corners
+- Positions: Geographically accurate with collision avoidance (stories may be reduced from 3 to 2 if overlaps detected)
 
 ## About the Original Project
 
-"No Time to Discourse" is a web-based speculative atlas by [Mark Sample](https://samplereality.itch.io/), professor at Davidson College. It explores climate disasters through interactive mapping and generative flash fiction.
+"No Time to Discourse" is a web-based speculative atlas by [Mark Sample](https://www.samplereality.com). It explores climate disasters through interactive mapping and generative flash fiction.
 
 - **Original Web Project**: [https://notime.now/](https://notime.now/)
 - **Source Code**: [GitHub](https://github.com/samplereality/no-time-to-discourse)
@@ -140,7 +129,7 @@ Each page features:
 
 [NaNoGenMo](https://nanogenmo.github.io/) (National Novel Generation Month) is an annual challenge to write code that generates a novel of 50,000+ words during November.
 
-This project successfully generates **51,024 words** of climate disaster flash fiction.
+This project successfully generates **~50,000 words** of climate disaster flash fiction (exact count varies per generation).
 
 ## Credits
 
